@@ -5,7 +5,7 @@ def verify(target_url):
     headers = {
         'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
     }
-    resp = requests.get(target_url)
+    resp = requests.get(target_url,headers=headers)
     with open("phpinfo.html","wb") as f:
         f.write(resp.content)
 if __name__ == '__main__':
